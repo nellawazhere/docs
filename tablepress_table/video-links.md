@@ -1,0 +1,6 @@
+---
+title: "Video Links - Desktop"
+date: "2023-07-26"
+---
+
+\[\[""\],\[""\],\[" [Video: Get Started \\u2013\\u00a0product tour](\"https://help.broadstripes.com/help-articles/using-broadstripes/get-started/getting-started-video/\")"\],\[""\],\[""\],\[" [Search with rule groups](\"https://help.broadstripes.com/videos/how-to-search-broadstripes/how-to-add-rule-groups-to-your-search-video/\")"\],\[" [Build custom searches](\"https://help.broadstripes.com/videos/how-to-search-broadstripes/how-to-search-with-the-search-builder-video/\")"\],\[""\],\[" [Working with relationships](\"/video/working-with-relationships-video/\")"\],\[" [Working with social groups](\"https://help.broadstripes.com/videos/working-with-social-groups-video/\")"\],\[""\],\[" [Add and invite a new user](\"https://help.broadstripes.com/videos/admin-videos/admin-video-add-and-invite-a-new-user/\")"\],\[" [Set up and send SMS text messages with Broadstripes](\"https://help.broadstripes.com/videos/text-messaging-with-broadstripes-video/\")"\],\[" [Text messaging with Broadstripes overview](\"https://help.broadstripes.com/videos/text-messaging-with-broadstripes-overview-video/\")"\],\[" [Change a user's role or permissions](\"https://help.broadstripes.com/videos/admin-videos/admin-video-change-a-users-role-or-permissions/\")"\],\[""\]\]

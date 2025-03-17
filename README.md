@@ -1,6 +1,6 @@
-# Website
+# Broadstripes Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This website contains the documentation for Broadstripes CRM, built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
 
