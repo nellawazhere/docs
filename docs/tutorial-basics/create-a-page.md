@@ -1,6 +1,9 @@
 ---
 sidebar_position: 1
+sidebar_label: 'Create a Page'
 ---
+
+<div className="markdown-content">
 
 # Create a Page
 
@@ -41,3 +44,5 @@ This is a Markdown page
 ```
 
 A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+
+</div>

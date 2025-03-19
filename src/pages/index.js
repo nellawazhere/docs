@@ -10,15 +10,15 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
+    <header className="bg-[var(--ifm-color-primary)] text-white py-16 px-4">
+      <div className="container mx-auto max-w-4xl">
+        <Heading as="h1" className="text-4xl md:text-5xl font-bold mb-4 text-center">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+        <p className="text-xl md:text-2xl mb-8 text-center opacity-90">{siteConfig.tagline}</p>
+        <div className="flex justify-center">
           <Link
-            className="button button--secondary button--lg"
+            className="bg-white text-[var(--ifm-color-primary)] hover:bg-opacity-90 px-6 py-3 rounded-lg font-medium shadow-lg transition-all duration-200"
             to="/docs/intro">
             Docusaurus Tutorial - 5min ⏱️
           </Link>

@@ -1,8 +1,43 @@
+@import 'tailwind.css';
+
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+
+/* Tailwind styles for Markdown content */
+.markdown-content {
+  @apply max-w-3xl mx-auto;
+}
+
+.markdown-content h1 {
+  @apply text-3xl font-bold mb-6 text-gray-900 dark:text-gray-100;
+}
+
+.markdown-content h2 {
+  @apply text-2xl font-semibold mt-8 mb-4 text-gray-800 dark:text-gray-200;
+}
+
+.markdown-content p {
+  @apply text-lg mb-4 text-gray-700 dark:text-gray-300;
+}
+
+.markdown-content code {
+  @apply px-2 py-1 bg-gray-100 dark:bg-gray-800 rounded text-sm;
+}
+
+.markdown-content a {
+  @apply text-blue-600 dark:text-blue-400 hover:underline;
+}
+
+.markdown-content ul {
+  @apply mb-4 ml-6 list-disc;
+}
+
+.markdown-content li {
+  @apply mb-2 text-gray-700 dark:text-gray-300;
+}
 
 /* You can override the default Infima variables here. */
 :root {
