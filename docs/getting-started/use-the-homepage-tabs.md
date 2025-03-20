@@ -1,10 +1,5 @@
 ---
-id: tour-homepage
-title: Tour your homepage
-description: Take a tour of your homepage
-hide_table_of_contents: false
-displayed_sidebar: docs
-hide_from_nav: false
+sidebar_position: 6
 ---
 
 <head>
