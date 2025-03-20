@@ -1,14 +1,9 @@
 ---
 sidebar_position: 6
+sidebar_label: "Tour your homepage"
 ---
 
-<head>
-  <title>Tour your homepage | Broadstripes Documentation</title>
-  <meta
-    name="description"
-    content="Take a tour of your homepage"
-  />
-</head>
+
 
 ## Homepage overview
 
