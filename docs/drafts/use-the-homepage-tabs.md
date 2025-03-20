@@ -1,4 +1,3 @@
----
 title: "Tour your homepage"
 date: "2018-03-01"
 categories: 
@@ -11,13 +10,13 @@ categories:
 
 Your Broadstripes homepage gives you customized, at-a-glance insight into your project. Open your homepage by either clicking the **Broadstripes** logo at the top left corner of any page, or the **Homepage** link in the left-hand navigational toolbar.
 
-![](images/Homepage-Left-Navigation-Pangel.png)
+<!--- ![](images/Homepage-Left-Navigation-Pangel.png) --->
 
 ## Your homepage tabs
 
 Once you’re on your homepage, you’ll see your project’s most important information separated into five tabs.
 
-[![](images/fd07e9a-HomepageTabsQL-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/fd07e9a-HomepageTabsQL-3.png)
+<!--- [![](images/fd07e9a-HomepageTabsQL-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/fd07e9a-HomepageTabsQL-3.png) --->
 
 ## Quick Links
 
@@ -32,44 +31,44 @@ Many users start at the **Quick Links tab** to easily jump to the tasks they d
 - generating aggregated status reports
 - running your most frequent searches
 
-[![](images/3c4e358-HomepageQL-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/3c4e358-HomepageQL-3.png)
+<!--- [![](images/3c4e358-HomepageQL-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/3c4e358-HomepageQL-3.png) --->
 
 ### How to use your Quick Links
 
 Here’s how to use quick links to manage common tasks:  
 1\. Click the **homepage** link in the navigational panel.
 
-[![](images/Homepage-Left-Navigation-Pangel.png)  
-](https://help.broadstripes.com/wp-content/uploads/2018/03/7923e73-QuickLinkHomepage-4.png)
+<!--- [![](images/Homepage-Left-Navigation-Pangel.png)  
+](https://help.broadstripes.com/wp-content/uploads/2018/03/7923e73-QuickLinkHomepage-4.png) --->
 
 2\. Go to the **Quick Links** tab.
 
-![](images/QuickLinksTab.png)
+<!--- ![](images/QuickLinksTab.png) --->
 
 3\. All of your quick links will be displayed on the tab as buttons.  
 4\. Here’s a look at what each of the four **buttons** shown below will do. (**Note**: since quick links are set up by you or your admin to match your specific workflow, the links you see will be different than those shown below.)
 
-[![](images/46e363f-UseQLtab-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/46e363f-UseQLtab-3.png)
+<!--- [![](images/46e363f-UseQLtab-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/46e363f-UseQLtab-3.png) --->
 
 5. **Launch a search:** Clicking the button **Cards signed this week**, takes us immediately to a search results data view panel where we can view or update records.
 
-\[caption id="" align="aligncenter" width="369"\][![](images/dd5464a-UseQLCardButton-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/dd5464a-UseQLCardButton-3.png) Clicking this button launches the search below.\[/caption\]
+<!--- \[caption id="" align="aligncenter" width="369"\][![](images/dd5464a-UseQLCardButton-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/dd5464a-UseQLCardButton-3.png) Clicking this button launches the search below.\[/caption\] --->
 
 [![Quick links can take you to a data view.](images/d0fa493-quick_links_image_1-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/d0fa493-quick_links_image_1-3.png)
 
 6. **Download a PDF:** Clicking the button **Quick search by department** launches a dynamic search that then automatically generates a PDF with all the worker details we need.
 
-\[caption id="" align="aligncenter" width="304"\][![](images/92c768b-quicksearchbydept-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/92c768b-quicksearchbydept-3.png) Clicking this button opens the search below, and then generates a downloadable PDF.\[/caption\]
+<!---  \[caption id="" align="aligncenter" width="304"\][![](images/92c768b-quicksearchbydept-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/92c768b-quicksearchbydept-3.png) Clicking this button opens the search below, and then generates a downloadable PDF.\[/caption\] --->
 
-[![](images/f8d63e8-QLQuickChooseDept-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/f8d63e8-QLQuickChooseDept-3.png)
+<!--- [![](images/f8d63e8-QLQuickChooseDept-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/f8d63e8-QLQuickChooseDept-3.png) --->
 
 [![Quick links can download PDF lists.](images/ffc572f-QLQuickDownload-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/ffc572f-QLQuickDownload-3.png)
 
 7. **Download an Excel report:** Clicking the button **Shop status report (Excel)** generates a fully-updated status report that we can download and manipulate offline with Excel – all with just the click of a button.
 
-\[caption id="" align="aligncenter" width="364"\][![](images/1d6a228-UseQLStatusButton-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/1d6a228-UseQLStatusButton-3.png) Clicking this button generates an Excel report like the one shown below.\[/caption\]
+<!--- \[caption id="" align="aligncenter" width="364"\][![](images/1d6a228-UseQLStatusButton-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/1d6a228-UseQLStatusButton-3.png) Clicking this button generates an Excel report like the one shown below.\[/caption\]
 
-[![Quick links can export Excel spreadsheets.](images/96c797a-UseQLExcel-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/96c797a-UseQLExcel-3.png)
+[![Quick links can export Excel spreadsheets.](images/96c797a-UseQLExcel-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/96c797a-UseQLExcel-3.png)  --->
 
 ## Your Turf
 
@@ -79,7 +78,7 @@ It also offers key metrics about them – like distribution of assessments or nu
 
 Just click to launch any of your custom reports right from your turf tab.
 
-[![](images/2d5863d-HomepageYT-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/2d5863d-HomepageYT-3.png)
+<!--- [![](images/2d5863d-HomepageYT-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/2d5863d-HomepageYT-3.png) --->
 
 ### Set up Your Turf
 
@@ -90,7 +89,7 @@ Here’s how to read your turf tab:
 1. Below is a sample view of an organizer’s turf tab.
 2. As you can see, it shows links to this organizer’s custom reports on the top of the page and displays information about the locations she organizes (“**Basic Hotel**” and “**Deluxe Hotel**) on the lower half of the page.
 
-[![](images/c6e02ca-HomepageYT-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/c6e02ca-HomepageYT-3.png)
+<!--- [![](images/c6e02ca-HomepageYT-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/c6e02ca-HomepageYT-3.png) --->
 
 1. All this information displays automatically – if this organizer was the organizer of another shop, the turf tab would display that shop, too.
 2. Your turf tab is a powerful tool for accessing the data that’s most important to you. From your turf tab, you can easily jump to more detailed information as it’s needed.
@@ -98,9 +97,10 @@ Here’s how to read your turf tab:
       
     
 
-\[caption id="" align="aligncenter" width="198"\][![Click a location to open an overview.](images/18ef864-TurfTabHotel-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/18ef864-TurfTabHotel-3.png) You can click a location to open a detailed overview.\[/caption\]
+<!--- 
+\[caption id="" align="aligncenter" width="198"\][![Click a location to open an overview.](images/18ef864-TurfTabHotel-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/18ef864-TurfTabHotel-3.png) You can click a location to open a detailed overview.\[/caption\] 
 
-\[caption id="" align="aligncenter" width="673"\][![](images/2b100e8-TurfEmplOverviewTabMag3-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/2b100e8-TurfEmplOverviewTabMag3-3.png) Overview of Basic Hotel.\[/caption\]
+\[caption id="" align="aligncenter" width="673"\][![](images/2b100e8-TurfEmplOverviewTabMag3-3.png)](https://help.broadstripes.com/wp-content/uploads/2018/03/2b100e8-TurfEmplOverviewTabMag3-3.png) Overview of Basic Hotel.\[/caption\] 
 
 1. You can drill down into information wherever you see a hyperlink. For instance, clicking on the number “84” in the **Workers** column will open a detailed list showing all 84 workers at the Basic Hotel.
 
