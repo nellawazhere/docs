@@ -1,6 +1,7 @@
 ---
 sidebar_position: 6
-sidebar_label: "Tour your homepage"
+sidebar_label: 'Tour your homepage'
+title: 'Tour your homepage'
 ---
 
 

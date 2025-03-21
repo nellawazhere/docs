@@ -10,9 +10,11 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
   corePlugins: {
-    preflight: false,
+    preflight: false, // Disable Tailwind's reset to avoid conflicts with Infima
   },
   darkMode: ['class', '[data-theme="dark"]'],
 }
