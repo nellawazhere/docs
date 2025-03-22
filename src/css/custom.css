@@ -19,15 +19,15 @@ article {
 
 /* Headers */
 h1 {
-  @apply text-4xl font-bold mb-6;
+  @apply text-4xl font-bold mb-6 text-gray-900 dark:text-white;
 }
 
 h2 {
-  @apply text-2xl font-semibold mt-8 mb-4;
+  @apply text-2xl font-semibold mt-8 mb-4 text-gray-900 dark:text-white;
 }
 
 h3 {
-  @apply text-xl font-medium mt-6 mb-3;
+  @apply text-xl font-medium mt-6 mb-3 text-gray-900 dark:text-white;
 }
 
 /* Lists */
@@ -41,12 +41,25 @@ ol {
 
 /* Links */
 a {
-  @apply text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300;
+  @apply text-blue-600 hover:text-blue-800 no-underline block dark:text-blue-400 dark:hover:text-blue-300;
 }
 
 /* Images */
 img {
-  @apply rounded-lg shadow-md my-4;
+  @apply rounded-lg shadow-md my-4 mx-auto block;
+}
+
+/*Captions*/
+figure {
+  @apply flex flex-col items-center justify-center w-full;
+}
+
+figure > * {
+  @apply block mx-auto;
+}
+
+figcaption {
+  @apply text-gray-600 dark:text-gray-400 text-xs text-center mt-0;
 }
 
 /* Code blocks */
