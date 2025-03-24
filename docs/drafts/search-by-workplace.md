@@ -1,4 +1,5 @@
 ---
+sidebar_position: 6
 title: Search for people by their workplace
 sidebar_label: Search for people by their workplace
 ---
