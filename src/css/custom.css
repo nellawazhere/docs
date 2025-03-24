@@ -19,15 +19,15 @@ article {
 
 /* Headers */
 h1 {
-  @apply text-4xl font-bold mb-6 text-gray-900 dark:text-white;
+  @apply text-4xl font-bold mb-4 text-gray-900 dark:text-white;
 }
 
 h2 {
-  @apply text-2xl font-semibold mt-8 mb-4 text-gray-900 dark:text-white;
+  @apply text-2xl font-semibold mt-8 mb-2 text-gray-900 dark:text-white;
 }
 
 h3 {
-  @apply text-xl font-medium mt-6 mb-3 text-gray-900 dark:text-white;
+  @apply text-xl font-medium mt-6 mb-1 text-gray-900 dark:text-white;
 }
 
 /* Lists */
@@ -41,7 +41,7 @@ ol {
 
 /* Links */
 a {
-  @apply text-blue-600 hover:text-blue-800 no-underline block dark:text-blue-400 dark:hover:text-blue-300;
+  @apply text-blue-600 hover:text-blue-800 no-underline dark:text-blue-400 dark:hover:text-blue-300;
 }
 
 /* Images */
@@ -143,9 +143,9 @@ div[class*="theme-admonition-danger"] {
 }
 
 div[class*="theme-admonition-heading"] {
-  @apply font-bold mb-2;
+  @apply font-bold mb-0 text-gray-900 dark:text-gray-900;
 }
 
 div[class*="theme-admonition-content"] {
-  @apply text-sm;
+  @apply text-sm dark:text-gray-600;
 }

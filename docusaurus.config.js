@@ -73,7 +73,7 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/getting-started/getting-started-guide',
+                to: '/docs/getting-started/register-your-account',
               },
             ],
           },
