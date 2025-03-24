@@ -1,10 +1,8 @@
 ---
-sidebar_position: 6
+sidebar_position: 3
 sidebar_label: 'Tour your homepage'
 title: 'Tour your homepage'
 ---
-
-
 
 ## Homepage overview
 
