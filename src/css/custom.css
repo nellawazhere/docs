@@ -82,6 +82,27 @@ code {
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Admonition colors */
+  --ifm-color-info: #54c7ec;
+  --ifm-color-info-dark: #4cb3d4;
+  --ifm-color-info-contrast-background: #f0f7f9;
+  --ifm-color-info-contrast-foreground: #1c5d7d;
+  
+  --ifm-color-success: #00c853;
+  --ifm-color-success-dark: #00b34a;
+  --ifm-color-success-contrast-background: #f0f9f4;
+  --ifm-color-success-contrast-foreground: #006d2e;
+  
+  --ifm-color-warning: #ffa726;
+  --ifm-color-warning-dark: #f57c00;
+  --ifm-color-warning-contrast-background: #fff8f0;
+  --ifm-color-warning-contrast-foreground: #8d4600;
+  
+  --ifm-color-danger: #ff5252;
+  --ifm-color-danger-dark: #e04848;
+  --ifm-color-danger-contrast-background: #fff0f0;
+  --ifm-color-danger-contrast-foreground: #8d2828;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -94,4 +115,37 @@ code {
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Admonitions */
+div[class*="theme-admonition"] {
+  @apply rounded-lg p-4 mb-4 border-l-4;
+}
+
+div[class*="theme-admonition-note"] {
+  @apply border-sky-600 bg-cyan-200;
+}
+
+div[class*="theme-admonition-tip"] {
+  @apply border-green-600 bg-green-200;
+}
+
+div[class*="theme-admonition-info"] {
+  @apply border-blue-600 bg-blue-200;
+}
+
+div[class*="theme-admonition-warning"] {
+  @apply border-yellow-600 bg-yellow-200;
+}
+
+div[class*="theme-admonition-danger"] {
+  @apply border-red-600 bg-red-200;
+}
+
+div[class*="theme-admonition-heading"] {
+  @apply font-bold mb-2;
+}
+
+div[class*="theme-admonition-content"] {
+  @apply text-sm;
 }
