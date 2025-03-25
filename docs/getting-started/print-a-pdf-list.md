@@ -16,10 +16,19 @@ If you were to take that list on a house visit, you'd use the name and address c
 2. When your search results appear, click **all** to select all the results in the list below.![ListPDFSelectAllButton](/img/getting-started/15f4fb2-ListPDFSelectAllButton.png)
 3. All contacts will be selected (indicated by a **check** next to their name). **Uncheck** any person you want to _exclude_ from your list.
 4. Once your contacts are selected, click the **Reports** menu and choose **Basic List (PDF)**.![ListPDFReportBasicPDF](/img/getting-started/941d3a5-ListPDFReportBasicPDF.png)
-5. When the **Report options** window opens, give the file a **Title** and choose a **Column Layout** to determine which columns of data (fields) will be included in your printed list. (For more information about using layouts, see the [Choose a layout](https://help.broadstripes.com/help-articles/using-broadstripes/get-started/choose-a-layout/) or [Create and save a layout](https://help.broadstripes.com/help-articles/using-broadstripes/customize/save-a-layout/) articles.)![ListPdfBasicListOptions](/img/getting-started/af5fb67-ListPdfBasicListOptions.png)
+5. When the **Report options** window opens, give the file a **Title** and choose a **Column Layout** to determine which columns of data (fields) will be included in your printed list. (For more information about using layouts, see the [Choose a layout](https://help.broadstripes.com/help-articles/using-broadstripes/get-started/choose-a-layout/) or [Create and save a layout](https://help.broadstripes.com/help-articles/using-broadstripes/customize/save-a-layout/) articles.)![ListPdfBasicListOptions](/img/getting-started/ListBasicPdfOptions.png)
 6. Click **Generate**. This will create a PDF report you can download and print.
-7. You'll see a message explaining that your PDF report is being created and will download automatically.![ListPdfDownloadMsg](/img/getting-started/e358ade-ListPdfDownloadMsg.png)
+7. You'll see a message explaining that your PDF report is being created and will download automatically.![ListPdfDownloadMsg](/img/getting-started/ListPdfDownloading.png)
 8. To view and print your PDF, you have two choices:
-    - you can **stay on the current page** and wait for the report's **download dialog** to appear asking you where to save your PDF list.
-- you can **leave the current page** and **check in later** to see if the report is ready. To check for the report later, click the **Reports** link in the navigation panel. That link brings you to the **Requested Reports** page where you can download any requested list at any time.
-1. Once you've downloaded your PDF list using one of these methods, **open** and **print** it just as you would any other PDF document.
+    - you can **stay on the current page** and the report will be added to your default download folder.
+    - you can **leave the current page** and **check in later** to see if the report is ready. To check for the report later, click the **Reports** link in the navigation panel. That link brings you to the **Requested Reports** page where you can download any requested list at any time.
+    <figure>
+    ![Reports on the Left Navigation Panel](/img/getting-started/LeftNavPanelReports.png)
+     <figcaption>Click the **Reports** link in the navigation panel to open a list of reports.</figcaption>
+    </figure>
+
+    <figure>
+    ![Download basic list from Requested Reports](/img/getting-started/BasicListRequestReportPage.png)
+     <figcaption>Choose the report you want from the **Requested Reports page.**</figcaption>
+    </figure>
+9. Once you've downloaded your PDF list using one of these methods, **open** and **print** it just as you would any other PDF document.
