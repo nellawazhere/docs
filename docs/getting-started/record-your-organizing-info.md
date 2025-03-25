@@ -1,4 +1,5 @@
 ---
+sidebar_position: 50
 title: Record your organizing info (data entry)
 sidebar_label: Record your organizing info (data entry)
 ---

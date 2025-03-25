@@ -1,4 +1,5 @@
 ---
+sidebar_position: 45
 title: Add a column to a layout
 sidebar_label: Add a column to a layout
 ---
