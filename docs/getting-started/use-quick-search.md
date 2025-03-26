@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 20
 title: Use the Quick Search
 sidebar_label: Use the Quick Search
 ---

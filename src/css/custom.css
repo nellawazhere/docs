@@ -62,6 +62,29 @@ figcaption {
   @apply text-gray-600 dark:text-gray-400 text-xs text-center mt-0;
 }
 
+/* Tabs */
+.tabs {
+  @apply p-2 rounded-lg mb-0 bg-gray-200 dark:bg-gray-800;
+}
+
+.tabs__item {
+  @apply text-sm/4 font-medium px-4 py-1 bg-gray-100 dark:bg-gray-800;
+}
+
+.tabs__item--active {
+  @apply bg-white font-semibold dark:bg-gray-700 text-blue-600 dark:text-blue-400;
+}
+
+.tabs-container [role="tabpanel"],
+.tabs__content {
+  @apply bg-blue-50 dark:bg-gray-800 p-2 mt-0;
+}
+
+.margin-vert--md {
+  @apply my-2;
+}
+
+
 /* Code blocks */
 pre {
   @apply p-4 rounded-lg bg-gray-100 dark:bg-gray-800 overflow-x-auto;

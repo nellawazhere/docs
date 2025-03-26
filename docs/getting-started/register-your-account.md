@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 5
 sidebar_label: 'Register your account'
 title: Register your account
 ---

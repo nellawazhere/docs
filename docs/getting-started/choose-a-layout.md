@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 35
 title: Choose how data is displayed (layout)
 sidebar_label: Choose how data is displayed (layout)
 ---

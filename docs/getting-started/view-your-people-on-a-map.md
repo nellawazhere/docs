@@ -1,4 +1,5 @@
 ---
+sidebar_position: 65
 title: View your people on a map
 sidebar_label: View your people on a map
 ---

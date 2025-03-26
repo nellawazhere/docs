@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 40
 title: Add flexible contact info columns to a layout
 sidebar_label: Add flexible contact info columns to a layout
 ---

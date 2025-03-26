@@ -1,7 +1,11 @@
 ---
+sidebar_position: 75
 title: Passwords and Digital Security Tips
 sidebar_label: Passwords and Digital Security Tips
 ---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 ## Overview
 Working on an organizing campaign means you’re going to have access to some **mission-critical information**. If it’s been a while since you’ve thought about how to keep your information safe from prying eyes, here’s a **quick checklist** that will run you through some of the basics.
@@ -15,14 +19,22 @@ While you’re here, you may want to check out the fantastic free app by **Ragta
 **Always log out** of Broadstripes or other apps if you’re done at a shared cubicle or coffee shop computer.
 ### **Use a screen saver lock.**
 **Screen saver locks, or screen locks, prevent someone from accessing your computer** when you step away by requiring a password to dismiss the screen saver or wake from "sleep" mode. Setting the timeout (the length of idle time before the screen saver takes effect) to 10 minutes or less is a good rule of thumb.
-1. Choose **System Preferences** from the Apple menu.
-2. Click **Security** or **Security & Privacy**.
-3. Select the **General** tab.
-4. Unlock the pane by clicking the lock in the lower-left corner and enter the **administrator username** and **password**.
-5. Check the "**Require password**" box and set the pull down menu to to "**immediately**" after sleep or screen saver begins.
-1. From the **Accounts** screen, choose **Sign-in options**
-2. Select **When PC wakes up from sleep** under **Require sign-in**.
-3. Set the timeout (sleep) period. Specify a sleep period of 10 minutes or under **System** and **Power & sleep** in Windows Settings.
+
+<Tabs groupId="operating-systems">
+  <TabItem value="mac" label="macOS">
+    1. Choose **System Preferences** from the Apple menu.
+    2. Click **Security** or **Security & Privacy**.
+    3. Select the **General** tab.
+    4. Unlock the pane by clicking the lock in the lower-left corner and enter the **administrator username** and **password**.
+    5. Check the "**Require password**" box and set the pull down menu to to "**immediately**" after sleep or screen saver begins.
+  </TabItem>
+  <TabItem value="win" label="Windows">
+    1. From the **Accounts** screen, choose **Sign-in options**
+    2. Select **When PC wakes up from sleep** under **Require sign-in**.
+    3. Set the timeout (sleep) period. Specify a sleep period of 10 minutes or under **System** and **Power & sleep** in Windows Settings.
+  </TabItem>
+</Tabs>
+
 ### **Don’t do your union work on management’s wifi.**
 **Management policies often reserve the right to search your browsing history** if you’ve been logged on to their wifi, so only organize when you’re on a non-management connection.
 ### **Where possible, set up two-factor authentication (2FA).**
@@ -31,44 +43,69 @@ While you’re here, you may want to check out the fantastic free app by **Ragta
 **New vulnerabilities and weaknesses are found every day**, so frequent updates are essential to ensuring your computer or mobile device is protected. You’ll be happy to know that Broadstripes updates automatically – just log in and you’re running the latest, most secure version – so that’s one app you won’t need to think about.
 ### **Once you’re up to date, stay up to date with automatic updates.**
 **Enabling automatic updating** helps ensure your device is up-to-date without having to work so hard.
-1. Choose **System** **Preferences** from the Apple menu.
+<Tabs groupId="operating-systems">
+<TabItem value="mac" label="macOS">
+  1. Choose **System** **Preferences** from the Apple menu.
 2. Click **App Store**.
 3. Click "**Automatically check for updates**"
-1. From the **Start** screen, open the **Store**.
+</TabItem>
+<TabItem value="win" label="Windows"> 
+  1. From the **Start** screen, open the **Store**.
 2. Choose **Settings**.
 3. Choose **App updates**.
 4. Set “**Automatically update my apps**” to **Yes**.
+</TabItem>
+</Tabs>
+<Tabs groupId="operating-systems">
+<TabItem value="mac" label="macOS">
 1. Choose **System Preferences** from the Apple menu.
 2. Click **Security** or **Security & Privacy**.
 3. Click the **Firewall** tab.
 4. Unlock the pane by **clicking the lock** in the lower-left corner and enter the **administrator username** and **password**.
 5. Click "**Turn On Firewall**" or "**Start**" to enable the firewall.
 6. Click **Advanced** to customize the firewall configuration.
+</TabItem>
+<TabItem value="win" label="Windows">
 1. Select the **Start** button, and then select **Settings.**
 2. Click **Update & Security**  > **Windows Security** > **Firewall & network protection**.
 3. **Choose a network profile**, and then under **Windows Defender Firewall**, switch the setting to **On**.
+</TabItem>
+</Tabs>
 ### **Use full-disk encryption.**
 **Full-disk encryption protects your computer’s data** from being accessed by anyone who does not know the password or decryption key. This is especially reassuring if your computer is ever stolen – the thief will have your computer, but they won’t have access to your files.
+<Tabs groupId="operating-systems">
+<TabItem value="mac" label="macOS">
 1. Choose **System Preferences** from the Apple menu.
 2. Click **Security** or **Security & Privacy**.
 3. Click the **FileVault** tab.
 4. Unlock the pane by clicking the lock in the lower-left corner and enter the **administrator username** and **password**.
 5. Click "**Turn On FileVault**" to start the process.
+</TabItem>
+<TabItem value="win" label="Windows">
 1. Sign in to Windows with an administrator account.
-2. Select the **Start** button, and then type "**manage BitLocker**."
+2. Select the **Start** button, and then type "**manage BitLocker**.".
 3. Select **Manage BitLocker** from the list of results.
 4. Select **Turn on BitLocker**, and then follow the instructions.
+</TabItem>
+</Tabs>
+
 ### **Disable Remote Login connections.**
 **The 'Remote Login' setting on your device controls whether users can log in to your system from other locations.** If you don't know what this is or have a need to use it, you should disable 'Remote Login'.
+<Tabs groupId="operating-systems">
+<TabItem value="mac" label="macOS">
 1. Choose **System Preferences** from the Apple menu.
 2. Click **Sharing**.
 3. Uncheck "**Remote Login**" on the left.
+</TabItem>
+<TabItem value="win" label="Windows">
 1. For **Windows 10**, Type "**remote settings**" in the Cortana search box and select **Allow remote access to your computer**. This action seems counterintuitive, but it opens the Control Panel dialog for Remote System Properties.
 2. Check "**Don’t Allow Remote Connections to This Computer**."
 3. For **earlier versions of Windows**:
     1. Go to the **Advanced System Settings** or **System and Security** window.
     2. Under the **Remote** tab, check “**Don’t Allow Remote Connections to This Computer**” or “**Don’t Allow Connections to This Computer.**”
-###  **Audit your browser.**
+</TabItem>
+</Tabs>
+### Audit your browser.
 If you’re like most people, you probably spend a lot of your computing time on a web browser. Securing your browser just takes a few steps and will help keep you safer on the web.
 If your browser does not offer automatic updates, **make sure you’re running the latest version of the browser** to take advantage of its most recent security patches.
 **Keep on top of the add-ons or plug-ins you’ve installed.** You don’t want anything that is questionable, redundant or unused since these extra programs potentially have access to everything you do in the browser. Try to limit what you keep to just essential, trusted add-ons.

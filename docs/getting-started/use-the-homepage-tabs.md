@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 15
 sidebar_label: 'Tour your homepage'
 title: 'Tour your homepage'
 ---

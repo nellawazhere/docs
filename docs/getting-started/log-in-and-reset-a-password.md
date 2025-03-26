@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 10
 title: Log in (and reset a password)
 sidebar_label: 'Log in (and reset a password)'
 ---
