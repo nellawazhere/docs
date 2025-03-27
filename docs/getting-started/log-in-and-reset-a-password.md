@@ -8,13 +8,14 @@ sidebar_label: 'Log in (and reset a password)'
 You'll need to have been invited to Broadstripes and completed registering your account before you can log in to the app for the first time. If you haven't received an invitation to join Broadstripes, ask your administrator to send you one.
 Here's how to log in to Broadstripes after your user account has been created and your password is set up:
 1. Go to the Broadstripes homepage [http://crm.broadstripes.com](http://crm.broadstripes.com)
-### Different URL?
+:::note Different URL?
 Your instance of Broadstripes might have a custom URL (for example https://crm.yourunion.org). If that's the case at your organization, just go to that URL instead.
-1. Fill in the form with your **email address** and **Broadstripes password**.
-2. Check **"Remember me"** if you'd like to save a little time logging in next time.
-3. Click **Log in.**
+:::
+2. Fill in the form with your **email address** and **Broadstripes password**.
+3. Check **"Remember me"** if you'd like to save a little time logging in next time.
+4. Click **Log in.**
     ![](/img/getting-started/broadstripes-login-screen-2.png)
-4. Broadstripes will log you in and take you to your Broadstripes homepage.
+5. Broadstripes will log you in and take you to your Broadstripes homepage.
 ## Password trouble? Retrieving or changing a password
 Although your administrator invited you to Broadstripes, passwords aren't maintained by Broadstripes administrators. You are the only one who knows your password.
 If you ever forget your password, you can use the "**Forgot your password?" link** to reset your password and access your account.

@@ -11,13 +11,13 @@ import TabItem from '@theme/TabItem';
 Working on an organizing campaign means you’re going to have access to some **mission-critical information**. If it’s been a while since you’ve thought about how to keep your information safe from prying eyes, here’s a **quick checklist** that will run you through some of the basics.
 We’ve also included some **overall security best practices** to help keep your devices running clean and minimize your downtime due to bloated apps, malware or viruses.
 While you’re here, you may want to check out the fantastic free app by **Ragtag** called [Stethoscope](https://ragtag.org/stethoscope/). It offers an easy security health-check that runs directly on your home or work computer, with suggestions for safer security settings and step-by-step instructions on how to enable them. Some of their best practices were used in this article.
-### **Use unique passwords.**
+### Use unique passwords.
 **Use a different password for each of your important logins** like email, your online bank account, and Broadstripes.
-### **Memorize your passwords**.
+### Memorize your passwords.
 **Don't write logins and passwords on a Post-it note** next to your monitor or under your keyboard – take the time to memorize them.
-### **Don't stay logged in on a public terminal.**
+### Don't stay logged in on a public terminal.
 **Always log out** of Broadstripes or other apps if you’re done at a shared cubicle or coffee shop computer.
-### **Use a screen saver lock.**
+### Use a screen saver lock.
 **Screen saver locks, or screen locks, prevent someone from accessing your computer** when you step away by requiring a password to dismiss the screen saver or wake from "sleep" mode. Setting the timeout (the length of idle time before the screen saver takes effect) to 10 minutes or less is a good rule of thumb.
 
 <Tabs groupId="operating-systems">
@@ -35,13 +35,13 @@ While you’re here, you may want to check out the fantastic free app by **Ragta
   </TabItem>
 </Tabs>
 
-### **Don’t do your union work on management’s wifi.**
-**Management policies often reserve the right to search your browsing history** if you’ve been logged on to their wifi, so only organize when you’re on a non-management connection.
+### Don't do your union work on management's wifi.
+**Management policies often reserve the right to search your browsing history** if you've been logged on to their wifi, so only organize when you're on a non-management connection.
 ### **Where possible, set up two-factor authentication (2FA).**
 **Most leading tech companies and many major banks offer 2FA.** In most cases, the second step in authentication involves texting a temporary security code to the cell phone number that is already on file for your account. In the case that someone gets access to your login credentials, 2FA will keep your account safe unless that unauthorized user also has possession of your phone.
-### **Keep your operating system, software, and apps up to date**.
-**New vulnerabilities and weaknesses are found every day**, so frequent updates are essential to ensuring your computer or mobile device is protected. You’ll be happy to know that Broadstripes updates automatically – just log in and you’re running the latest, most secure version – so that’s one app you won’t need to think about.
-### **Once you’re up to date, stay up to date with automatic updates.**
+### Keep your operating system, software, and apps up to date.
+**New vulnerabilities and weaknesses are found every day**, so frequent updates are essential to ensuring your computer or mobile device is protected. You'll be happy to know that Broadstripes updates automatically – just log in and you're running the latest, most secure version – so that's one app you won't need to think about.
+### Once you’re up to date, stay up to date with automatic updates.
 **Enabling automatic updating** helps ensure your device is up-to-date without having to work so hard.
 <Tabs groupId="operating-systems">
 <TabItem value="mac" label="macOS">
@@ -71,7 +71,8 @@ While you’re here, you may want to check out the fantastic free app by **Ragta
 3. **Choose a network profile**, and then under **Windows Defender Firewall**, switch the setting to **On**.
 </TabItem>
 </Tabs>
-### **Use full-disk encryption.**
+
+### Use full-disk encryption.
 **Full-disk encryption protects your computer’s data** from being accessed by anyone who does not know the password or decryption key. This is especially reassuring if your computer is ever stolen – the thief will have your computer, but they won’t have access to your files.
 <Tabs groupId="operating-systems">
 <TabItem value="mac" label="macOS">
@@ -89,7 +90,7 @@ While you’re here, you may want to check out the fantastic free app by **Ragta
 </TabItem>
 </Tabs>
 
-### **Disable Remote Login connections.**
+### Disable Remote Login connections.
 **The 'Remote Login' setting on your device controls whether users can log in to your system from other locations.** If you don't know what this is or have a need to use it, you should disable 'Remote Login'.
 <Tabs groupId="operating-systems">
 <TabItem value="mac" label="macOS">
@@ -113,7 +114,7 @@ To check your add-ons:
 - In **Chrome**, choose **More tools** then **Extensions** from the browser menu.
 - In **Firefox**, from the browser menu, choose **Add-ons** to review your options.
 - In **Safari**, Choose **Safari** > **Preferences**, then **Extensions**.
-### **Periodically review app permissions.**
+### Periodically review app permissions.
 It’s worth reviewing the permissions each app is granted every so often. Whether it is on your phone, your Facebook account, or another device, looking into these permissions can improve your system’s performance, as well as cover you from a privacy and security perspective. Most apps let you see exactly what they’ve been granted to do on your system. As you review your apps’ permissions, here are some things to consider:
 - Nothing on your system should be accessing the **camera** and the **microphone** without good reason (to enable video calls, usually).
 - The same goes for apps that access your **contact lists**.
