@@ -59,9 +59,10 @@ The **Notes** function is best used to capture information that is _always re
 - "Speaks Creole and English fluently, knows some Spanish."
 - "Ring bell and go around to back door."
 To add a note:
-1. Start by clicking on the  **looking glass icon** next to their **name** (if their record is not already on-screen, [Search for them by name](https://help.broadstripes.com/help-articles/using-broadstripes/search/search-by-name/) ).
+1. Start by clicking on the **information icon (i)** next to their **name** (if their record is not already on-screen, [Search for them by name](https://help.broadstripes.com/help-articles/using-broadstripes/search/search-by-name/) ).
 2. Click the  **edit icon** to open their record.
-1. When their record opens, **scroll down** to the **Notes** section. Type your note in the notes text box, then scroll to the bottom of the page and click **Save** to record the note.
+![](/img/getting-started/record-info-add-note.png)
+3. When their record opens, **scroll down** to the **Notes** section. Type your note in the notes text box, then scroll to the bottom of the page and click **Save** to record the note.
 ### Contact Timeline entries
 Information that is _fleeting_ should not be put in Notes. That type of information should go in the **Contact Timeline**. Since contact timeline entries are more likely to get buried as the timeline grows, they are best used for time-sensitive information related to specific visits, meetings, or campaigns.
 Examples of timeline entries:
@@ -71,7 +72,8 @@ Examples of timeline entries:
 - "Expressed dismay at contract proposal in committee meeting — please follow up one-on-one."
 Timeline entries allow you to choose from one of a few entry **types** (including Note, House visit, One-on-one, Meeting, Phone call, etc.)
 Create a contact timeline entry:
-1. To make a new timeline entry for a contact, start by clicking on the  **looking glass icon** next to their name (if their record is not already on-screen, [Search for them by name](https://help.broadstripes.com/help-articles/using-broadstripes/search/search-by-name/) ).
+1. To make a new timeline entry for a contact, start by clicking on the **information icon (i)** next to their name (if their record is not already on-screen, [Search for them by name](https://help.broadstripes.com/help-articles/using-broadstripes/search/search-by-name/) ).
 2. A pop-up box opens, showing information about the contact. Click the  **icon** at the bottom of the pop-up to add a **new timeline entry**.
-1. When the **Create contact timeline item form** opens, choose which **Type** of record you want from the drop-down list, then enter the detailed information you're recording in the **Description** text box.
-1. Click **Save** to create the timeline entry.
+![](/img/getting-started/record-info-add-timeline.png)
+3. When the **Create contact timeline item form** opens, choose which **Type** of record you want from the drop-down list, then enter the detailed information you're recording in the **Description** text box.
+4. Click **Save** to create the timeline entry.

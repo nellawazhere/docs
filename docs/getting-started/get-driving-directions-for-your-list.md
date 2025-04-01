@@ -10,5 +10,5 @@ sidebar_label: Get driving directions for your list
 4. All contacts will be selected (indicated by a check next to their name). Uncheck any person you want to _exclude_ from your map.
 5. Once your contacts are selected, click the **Maps** drop-down list from the toolbar and choose **Driving directions**.![](/img/getting-started/50d0ce4-DrivDirSelectMap.png)
 6. Broadstripes will open a new window showing the location of your contacts on a map.![](/img/getting-started/febebef-MapViewStartAddress.png)
-7. You can add your **starting address** in the text box in the upper-left to generate full driving instructions from your current location, then click **update map**.
+7. You can add your **starting address** in the text box in the upper-left to generate full driving instructions from your current location, then click **update map**. You may also indicate your **ending address** in the text box in the lower-left.
 8. Click the  **printer-friendly** icon above the map to print the **turn-by-turn directions**, or use the **page down** keyboard command to view them on-screen at the bottom of the page.

@@ -41,14 +41,14 @@ Here’s how to use quick links to manage common tasks:
 3. All of your quick links will be displayed on the tab as buttons.
 4. Here’s a look at what each of the four **buttons** shown below will do. (**Note: since quick links are set up by you or your admin to match your specific workflow, the links you see will be different than those shown below.)
 ![Quick links buttons](/img/getting-started/quick-links-view.png)
-5.  **Launch a search:** Clicking the button "Unassigned people on my turf", takes us immediately to a search results data view panel where we can view or update records.
+5.  **Launch a search:** Clicking the button "People I lead", takes us immediately to a search results data view panel where we can view or update records.
 
 <figure>
 ![Quick links buttons](/img/getting-started/launch-search-quick-link.png)
 <figcaption>Clicking this button will run the search and take you to the search results page.</figcaption>
 </figure>
 
-6. **Download a Status report:** Clicking the button '"ard Signing Report" generates a fully-updated status report that we can download and manipulate offline with Excel – all with just the click of a button.
+6. **Download a Status report:** Clicking the button "Card Signing Report" generates a fully-updated status report that we can download as a PDF – all with just the click of a button.
 
 <figure >
 ![Quick links buttons](/img/getting-started/status-report-quick-link.png)
@@ -159,7 +159,7 @@ At the bottom of the page, you can see key statistics about your project – lik
 
 Like other tabs on your homepage, most of the numbers presented are clickable links that let you drill down to detailed information where you need it.
 :::note
-This tab will not be avaible if the project utilizes Limited visibility.**ADD LINK HERE**
+This tab will not be avaible if the project utilizes [Limited visibility](https://help.broadstripes.com/help-articles/admin-tools/project-settings/limited-visibility/).
 :::
 
 ![Project overview tab](/img/getting-started/project-overview-tab-view.png)
