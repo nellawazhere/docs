@@ -29,12 +29,18 @@ import DocCardList from '@theme/DocCardList';
     type: 'link',
     href: '../search/limiting-searches-to-a-particular-set-of-workplaces',
     label: 'Add an employer filter',
-    description: 'Learn how to limit searches to specific workplaces'
+    description: 'Limit searches to specific workplaces'
   },
   {
     type: 'link',
     href: '../search/sort-search-results',
     label: 'Sort search results',
     description: 'Sort your search results in an order that makes sense'
+  },
+  {
+    type: 'link',
+    href: '../search/search-builder-build-an-advanced-search',
+    label: 'Search Builder - build an advanced search',
+    description: 'Build an advanced search with the search builder'
   }
 ]} />
