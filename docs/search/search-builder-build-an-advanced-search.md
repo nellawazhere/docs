@@ -30,7 +30,7 @@ If you ever get stuck while building an advanced search, you can follow these li
 - The  **reference** link will open a [helpful printable PDF](/img/search/Search-Language-Reference.pdf) that explains Broadstripes' search terms and syntax and lists the most common fields used in searches along with examples of searches you are likely to use.
 
 <figure>
-[![Search language reference: 300px](/img/search/search-language-pdf.png)](/img/search/Search-Language-Reference.pdf)
+[![Search language reference](/img/search/search-language-pdf.png)](/img/search/Search-Language-Reference.pdf)
 <figcaption>Click to open the search terms PDF.</figcaption>
 </figure>
 

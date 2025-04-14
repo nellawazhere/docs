@@ -1,6 +1,7 @@
 ---
 title: Sort search results
 sidebar_label: Sort search results
+sidebar_position: 25
 ---
 
 After running a search, you may want results to display in a certain order. For instance, if you're interested in gauging support, you'll want to sort by workers' assessment codes. With Broadstripes, sorting search results is just a few clicks away. Here's how it's done:
