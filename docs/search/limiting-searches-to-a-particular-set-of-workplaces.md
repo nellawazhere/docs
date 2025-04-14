@@ -1,6 +1,7 @@
 ---
 title: Add an employer filter
 sidebar_label: Add an employer filter
+sidebar_position: 20
 ---
 
 ## Intro
