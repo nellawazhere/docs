@@ -22,11 +22,10 @@ While you’re here, you may want to check out the fantastic free app by **Ragta
 
 <Tabs groupId="operating-systems">
   <TabItem value="mac" label="macOS">
-    1. Choose **System Preferences** from the Apple menu.
-    2. Click **Security** or **Security & Privacy**.
-    3. Select the **General** tab.
-    4. Unlock the pane by clicking the lock in the lower-left corner and enter the **administrator username** and **password**.
-    5. Check the "**Require password**" box and set the pull down menu to to "**immediately**" after sleep or screen saver begins.
+     1. 	Choose **System Settings** from the Apple menu.
+	   2.	Click **Lock Screen** in the sidebar on the left.
+	   3.	Set the inactive period. Next to **“Start Screen Saver when inactive”** use the pull down menu to choose **“For 10 minutes”** (or a shorter period of time).
+	   4.	Lock the screen when inactive. Next to **“Require password after screen saver begins or display is turned off”** use the pull down menu to choose **“Immediately”**. 
   </TabItem>
   <TabItem value="win" label="Windows">
     1. From the **Accounts** screen, choose **Sign-in options**
@@ -45,9 +44,12 @@ While you’re here, you may want to check out the fantastic free app by **Ragta
 **Enabling automatic updating** helps ensure your device is up-to-date without having to work so hard.
 <Tabs groupId="operating-systems">
 <TabItem value="mac" label="macOS">
-  1. Choose **System** **Preferences** from the Apple menu.
-2. Click **App Store**.
-3. Click "**Automatically check for updates**"
+    1. Choose **System Settings** from the Apple menu.
+    2. Click **General** in the sidebar on the left.
+    3. Click **Software Update**.
+    4. Next to **“Automatic updates”** click the information icon (“i” within a circle). 
+    5. In the window that opens, **turn on all options**.
+    6. Click **Done**.
 </TabItem>
 <TabItem value="win" label="Windows"> 
   1. From the **Start** screen, open the **Store**.
@@ -56,19 +58,20 @@ While you’re here, you may want to check out the fantastic free app by **Ragta
 4. Set “**Automatically update my apps**” to **Yes**.
 </TabItem>
 </Tabs>
+### Turn on your firewall.
+
 <Tabs groupId="operating-systems">
 <TabItem value="mac" label="macOS">
-1. Choose **System Preferences** from the Apple menu.
-2. Click **Security** or **Security & Privacy**.
-3. Click the **Firewall** tab.
-4. Unlock the pane by **clicking the lock** in the lower-left corner and enter the **administrator username** and **password**.
-5. Click "**Turn On Firewall**" or "**Start**" to enable the firewall.
-6. Click **Advanced** to customize the firewall configuration.
+    1. Choose **System Settings** from the Apple menu.
+    2. Click **Network** in the sidebar on the left.
+    3. Click **Firewall**.
+    4. **Turn on** the firewall.
+    5. Click the **Options** button to customize the firewall configuration.
 </TabItem>
 <TabItem value="win" label="Windows">
-1. Select the **Start** button, and then select **Settings.**
-2. Click **Update & Security**  > **Windows Security** > **Firewall & network protection**.
-3. **Choose a network profile**, and then under **Windows Defender Firewall**, switch the setting to **On**.
+    1. Select the **Start** button, and then select **Settings.**
+    2. Click **Update & Security**  > **Windows Security** > **Firewall & network protection**.
+    3. **Choose a network profile**, and then under **Windows Defender Firewall**, switch the setting to **On**.
 </TabItem>
 </Tabs>
 
@@ -76,11 +79,16 @@ While you’re here, you may want to check out the fantastic free app by **Ragta
 **Full-disk encryption protects your computer’s data** from being accessed by anyone who does not know the password or decryption key. This is especially reassuring if your computer is ever stolen – the thief will have your computer, but they won’t have access to your files.
 <Tabs groupId="operating-systems">
 <TabItem value="mac" label="macOS">
-1. Choose **System Preferences** from the Apple menu.
-2. Click **Security** or **Security & Privacy**.
-3. Click the **FileVault** tab.
-4. Unlock the pane by clicking the lock in the lower-left corner and enter the **administrator username** and **password**.
-5. Click "**Turn On FileVault**" to start the process.
+If you have a Mac with **Apple silicon or an Apple T2 Security Chip**, your data is **automatically encrypted**, but turning on **FileVault** provides an extra layer of security. If you use a Mac that **doesn’t have Apple silicon or the T2 chip**, you need to **turn on FileVault to encrypt your data**.
+
+Turn on **FileVault**.
+1. Choose **System Settings** from the Apple menu.
+2. Click **Privacy & Security** in the sidebar on the left, then scroll down to **FileVault**. 
+3. Click **Turn On**.
+4. You might be asked to enter your password.
+5. Choose how to **unlock your disk and reset your login password** if you forget it.
+6. **Save your unlock/recovery info in a safe location.** You will need your iCloud login password or a recovery key to access your data. **If you forget both, your data will be lost.** 
+7. Click **Continue**.
 </TabItem>
 <TabItem value="win" label="Windows">
 1. Sign in to Windows with an administrator account.
@@ -94,9 +102,10 @@ While you’re here, you may want to check out the fantastic free app by **Ragta
 **The 'Remote Login' setting on your device controls whether users can log in to your system from other locations.** If you don't know what this is or have a need to use it, you should disable 'Remote Login'.
 <Tabs groupId="operating-systems">
 <TabItem value="mac" label="macOS">
-1. Choose **System Preferences** from the Apple menu.
-2. Click **Sharing**.
-3. Uncheck "**Remote Login**" on the left.
+1. Choose **System Settings** from the Apple menu.
+2. Click **General** in the sidebar on the left.
+3. Click **Sharing**.
+4. Turn off **Remote Login** and **Remote Management** as well as any additional sharing options you don’t want to allow. 
 </TabItem>
 <TabItem value="win" label="Windows">
 1. For **Windows 10**, Type "**remote settings**" in the Cortana search box and select **Allow remote access to your computer**. This action seems counterintuitive, but it opens the Control Panel dialog for Remote System Properties.
@@ -111,7 +120,7 @@ If you’re like most people, you probably spend a lot of your computing time on
 If your browser does not offer automatic updates, **make sure you’re running the latest version of the browser** to take advantage of its most recent security patches.
 **Keep on top of the add-ons or plug-ins you’ve installed.** You don’t want anything that is questionable, redundant or unused since these extra programs potentially have access to everything you do in the browser. Try to limit what you keep to just essential, trusted add-ons.
 To check your add-ons:
-- In **Chrome**, choose **More tools** then **Extensions** from the browser menu.
+- In **Chrome**, choose **Extensions** or **More tools** then **Extensions** from the browser menu.
 - In **Firefox**, from the browser menu, choose **Add-ons** to review your options.
 - In **Safari**, Choose **Safari** > **Preferences**, then **Extensions**.
 ### Periodically review app permissions.
