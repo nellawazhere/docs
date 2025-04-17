@@ -1,6 +1,7 @@
 ---
 title: Search Builder - build an advanced search (+video)
 sidebar_label: Search Builder - build an advanced search (+video)
+sidebar_position: 28
 ---
 
 ## Overview
