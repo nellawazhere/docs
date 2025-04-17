@@ -39,8 +39,20 @@ import DocCardList from '@theme/DocCardList';
   },
   {
     type: 'link',
+    href: '../search/search-builder-build-an-advanced-search',
+    label: 'Search builder - build an advanced search (+video)',
+    description: 'Build an advanced search with the search builder'
+  },
+  {
+    type: 'link',
     href: '../search/save-and-share-searches',
     label: 'Save and/or share useful searches',
     description: 'Save and share useful searches'
-  }
+  },
+  {
+    type: 'link',
+    href: '../search/search-with-multiple-rules',
+    label: 'Add a rule or multiple rules to your search',
+    description: 'Add a rule or multiple rules to your search'
+  },
 ]} />

@@ -11,7 +11,7 @@ The two rules in this search might be stated this way:
 >
 > have a leadership role **AND** work at Big Shop
 ## Build a multiple-rules search
-1. To get started, click the **Advanced** button to the right of the search box at the top of the page.![](/img/search/23b2152-SearchWrkAdvButton-1.jpg)
+1. To get started, click the **Search builder** button to the right of the search box at the top of the page.![](/img/search/SearchSearchBuilderButton2021-e1610573892873.png)
 2. A **search builder** panel will appear below the search box.![](/img/search/2fb6ebd-BuildSaveSearchDefault.png)
 3. Initially, the panel will offer to search for people by **Name**, but you can easily change that to search by leadership role, our first rule.
 4. To search for leaders, select "**Leadership role**" from the drop-down list on the left. That choice can be found under the **Leadership** section of the drop-down list, but you can bring the choice up even quicker by typing "**leadership**" into the **Filter box** (as shown below).![](/img/search/8450f77-SearchMultRuleLeaderhip.png)
@@ -28,5 +28,5 @@ Use "**AND**" to run a search where _all_ of the rules are true. Use "**OR**" 
 ![](/img/search/30c0bb9-SearchMultRulesResult.png)
 ## Learn more
 You can learn more (and watch video tutorials) about simple searches and searching with groups of rules in these articles:
-- [Build an advanced search with the search builder](https://help.broadstripes.com/help-articles/using-broadstripes/search/build-an-advanced-search/)
+- [Build an advanced search with the search builder](../search/search-builder-build-an-advanced-search.md)
 - [Add rule groups to your search](https://help.broadstripes.com/help-articles/using-broadstripes/search/add-rule-groups-to-your-search/)
