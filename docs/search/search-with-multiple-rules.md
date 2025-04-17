@@ -1,6 +1,7 @@
 ---
 title: Add a rule or multiple rules to your search
 sidebar_label: Add a rule or multiple rules to your search
+sidebar_position: 40
 ---
 
 ## Overview

@@ -55,4 +55,10 @@ import DocCardList from '@theme/DocCardList';
     label: 'Add a rule or multiple rules to your search',
     description: 'Add a rule or multiple rules to your search'
   },
+  {
+    type: 'link',
+    href: '../search/add-rule-groups-to-your-search',
+    label: 'Add a rule group to your search',
+    description: 'Add a rule group to your search'
+  },
 ]} />
