@@ -39,5 +39,5 @@ If you ever get stuck while building an advanced search, you can follow these li
 You're off to a great start!
 Learn more about using the search builder to build additional custom searches:
 - [Search with multiple rules](/search/search-with-multiple-rules.md)
-- [Add rule groups to your search](https://help.broadstripes.com/help-articles/using-broadstripes/search/add-rule-groups-to-your-search/)
+- [Add rule groups to your search](/search/add-rule-groups-to-your-search/)
 - [Broadstripes search language](https://help.broadstripes.com/help-articles/using-broadstripes/search/search-language-reference/)
