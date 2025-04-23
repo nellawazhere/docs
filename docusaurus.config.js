@@ -11,13 +11,8 @@ const config = {
   title: 'Broadstripes Help Center',
   tagline: 'Learn how to use Broadstripes',
   favicon: 'img/favicon.ico',
-
-  // Set the production url of your site here
   url: 'https://help.broadstripes.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: '/',
-
-  // GitHub pages deployment config.
   organizationName: 'broadstripes',
   projectName: 'help-center',
 
@@ -28,6 +23,27 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  plugins: [
+    function webpackPolyfillPlugin() {
+      return {
+        name: 'webpack-polyfill-plugin',
+        configureWebpack() {
+          return {
+            resolve: {
+              fallback: {
+                path: require.resolve('path-browserify'),
+                os: require.resolve('os-browserify/browser'),
+                url: require.resolve('url/'),
+                fs: false
+              }
+            }
+          };
+        }
+      };
+    }
+  ],
+
 
   presets: [
     [
@@ -40,7 +56,9 @@ const config = {
           exclude: ['**/drafts/**'],
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: [
+            './src/css/custom.css',
+          ],
         },
       }),
     ],

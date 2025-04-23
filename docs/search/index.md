@@ -61,4 +61,22 @@ import DocCardList from '@theme/DocCardList';
     label: 'Add a rule group to your search',
     description: 'Add a rule group to your search'
   },
+  {
+    type: 'link',
+    href: '../search/search-by-event-step',
+    label: 'Search by event step',
+    description: 'Search by event step'
+  },
+  {
+    type: 'link',
+    href: '../search/search-by-event-using-dates',
+    label: 'Search by event using dates',
+    description: 'Search event info using dates or a timeframe'
+  },
+  {
+    type: 'link',
+    href: '../search/search-language-reference',
+    label: 'Search language reference',
+    description: 'A reference list of the standard search terms available to most projects'
+  }
 ]} />

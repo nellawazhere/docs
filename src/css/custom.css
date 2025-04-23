@@ -1,118 +1,248 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
 
-/* Apply Tailwind styles globally to main content */
-main {
-  @apply max-w-6xl mx-auto px-4;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.search-term {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.875rem;
+  color: #f87171; /* text-red-400 */
+  background-color: #f3f4f6; /* bg-gray-100 */
+  border: 1px solid #9ca3af; /* border border-gray-400 */
+  border-radius: 0.25rem; /* rounded */
+  padding: 0.125rem 0.25rem; /* px-1 py-0.5 */
 }
 
-article {
-  @apply prose dark:prose-invert max-w-none;
+@layer base {
+  main {
+    @apply max-w-6xl mx-auto px-4;
+  }
+
+  article {
+    @apply text-xl leading-relaxed max-w-none;
+  }
+
+  h1 {
+    @apply text-4xl font-bold mb-4 text-gray-900;
+  }
+
+  h2 {
+    @apply text-2xl font-bold mt-8 mb-2 text-gray-900;
+  }
+
+  h3 {
+    @apply text-xl font-bold mt-6 mb-1 text-gray-900;
+  }
+
+  ul {
+    @apply list-disc pl-6 mb-4;
+  }
+
+  ol {
+    @apply list-decimal pl-6 mb-4;
+  }
+
+  a {
+    @apply text-blue-500 no-underline hover:text-blue-700;
+  }
+
+  img {
+    @apply rounded-lg shadow-sm my-4 mx-auto block;
+  }
+
+  figure {
+    @apply flex flex-col items-center justify-center w-full;
+  }
+
+  figure > * {
+    @apply block mx-auto;
+  }
+
+  figcaption {
+    @apply text-gray-500 text-sm text-center mt-0;
+  }
 }
 
-/* Headers */
-h1 {
-  @apply text-4xl font-bold mb-4 text-gray-900 dark:text-white;
+@layer components {
+  .margin-vert--md {
+    @apply my-2;
+  }
+
+  .table-container {
+    @apply overflow-x-auto;
+  }
+
+  .table-container table {
+    @apply min-w-full border-collapse;
+  }
+
+  .table-container th {
+    @apply bg-gray-50 text-left p-4 border-b border-gray-200;
+  }
+
+  .table-container td {
+    @apply p-4 border-b border-gray-200;
+  }
+
+  .table-container tr:hover {
+    @apply bg-gray-50;
+  }
+
+  [data-theme='dark'] .table-container th,
+  [data-theme='dark'] .table-container tr:hover {
+    @apply bg-gray-800;
+  }
+
+  .tabs-container {
+    @apply flex flex-col border-gray-300;
+  }
+
+  [data-theme='dark'] .tabs-container {
+    @apply border-gray-700;
+  }
+
+  .tabs {
+    @apply flex flex-wrap -mb-px border-b border-gray-200;
+  }
+
+  [data-theme='dark'] .tabs {
+    @apply border-gray-700;
+  }
+
+  .tabs__item {
+    @apply inline-flex items-center px-4 py-2 text-sm font-medium border-b-2 rounded-t-lg;
+  }
+
+  .tabs__item--active {
+    @apply text-gray-50 border-sky-500 bg-sky-300;
+  }
+
+  .tabs__item:not(.tabs__item--active) {
+    @apply border-transparent text-gray-500 hover:text-gray-600 hover:border-gray-300;
+  }
+
+  [data-theme='dark'] .tabs__item:not(.tabs__item--active) {
+    @apply text-gray-400 hover:text-gray-300;
+  }
+
+  .tabs__item:focus {
+    @apply outline-none ring-2 ring-sky-900;
+  }
+
+  .tab-content {
+    @apply p-4;
+  }
 }
 
-h2 {
-  @apply text-2xl font-semibold mt-8 mb-2 text-gray-900 dark:text-white;
+/* Search Language Reference Table styles */
+[data-page-path*="search-language-reference"] table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
 }
 
-h3 {
-  @apply text-xl font-medium mt-6 mb-1 text-gray-900 dark:text-white;
+[data-page-path*="search-language-reference"] thead {
+  background-color: #f9fafb;
 }
 
-/* Lists */
-ul {
-  @apply list-disc pl-6 mb-4;
+[data-theme='dark'] [data-page-path*="search-language-reference"] thead {
+  background-color: #1f2937;
 }
 
-ol {
-  @apply list-decimal pl-6 mb-4;
+[data-page-path*="search-language-reference"] th {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #111827;
+  border-bottom: 1px solid #e5e7eb;
 }
 
-/* Links */
-a {
-  @apply text-blue-600 hover:text-blue-800 no-underline dark:text-blue-400 dark:hover:text-blue-300;
+[data-theme='dark'] [data-page-path*="search-language-reference"] th {
+  color: #f9fafb;
+  border-color: #374151;
 }
 
-/* Images */
-img {
-  @apply rounded-lg shadow-md my-4 mx-auto block;
+[data-page-path*="search-language-reference"] td {
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  color: #374151;
+  border-bottom: 1px solid #e5e7eb;
 }
 
-/*Captions*/
-figure {
-  @apply flex flex-col items-center justify-center w-full;
+[data-theme='dark'] [data-page-path*="search-language-reference"] td {
+  color: #d1d5db;
+  border-color: #374151;
 }
 
-figure > * {
-  @apply block mx-auto;
+[data-page-path*="search-language-reference"] tr:hover {
+  background-color: #f9fafb;
 }
 
-figcaption {
-  @apply text-gray-600 dark:text-gray-400 text-xs text-center mt-0;
+[data-theme='dark'] [data-page-path*="search-language-reference"] tr:hover {
+  background-color: rgba(31, 41, 55, 0.5);
 }
 
- .margin-vert--md {
-  @apply my-2;
-} 
-
-/* Tab styles */
-
-
-
-.tabs-container {
-  @apply flex flex-col border-gray-300 dark:border-gray-700;
+/* Code within search language reference tables */
+[data-page-path*="search-language-reference"] td code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  font-size: 0.875rem !important;
+  color: #f87171 !important; /* text-red-400 */
+  background-color: #f3f4f6 !important; /* bg-gray-100 */
+  border: 1px solid #9ca3af !important; /* border border-gray-400 */
+  border-radius: 0.25rem !important; /* rounded */
+  padding: 0.125rem 0.25rem !important; /* px-1 py-0.5 */
+  display: inline-block !important;
+  line-height: normal !important;
+  white-space: nowrap !important;
 }
 
-.tabs {
-  @apply flex flex-wrap -mb-px border-b border-gray-200 dark:border-gray-700;
-}
-
-.tabs__item {
-  @apply inline-flex items-center px-4 py-2 text-sm font-medium border-b-2 rounded-t-lg;
-}
-
-.tabs__item--active {
-  @apply text-gray-50 border-sky-500 bg-sky-300;
-}
-
-.tabs__item:not(.tabs__item--active) {
-  @apply border-transparent text-gray-500 hover:text-gray-600 hover:border-gray-300 dark:text-gray-400 dark:hover:text-gray-300;
-}
-
-.tabs__item:focus {
-  @apply outline-none ring-2 ring-sky-800;
-}
-
-.tab-content {
-  @apply p-4;
+[data-theme='dark'] [data-page-path*="search-language-reference"] td code {
+  color: #f87171 !important; /* text-red-400 */
+  background-color: #1f2937 !important; /* bg-gray-200 for dark mode */
+  border-color: #6b7280 !important; /* border-gray-400 for dark mode */
 }
 
 /* Override Docusaurus tab styles with custom ones */
 [role="tabpanel"] {
-  @apply p-4 bg-gray-100 dark:bg-gray-800 rounded-b-lg -mt-px;
+  padding: 1rem;
+  background-color: #f3f4f6;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  margin-top: -1px;
+}
+
+[data-theme='dark'] [role="tabpanel"] {
+  background-color: #1f2937;
 }
 
 [role="tablist"] {
-  @apply tabs;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -1px;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 [role="tab"] {
-  @apply tabs__item;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-bottom-width: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
 [role="tab"][aria-selected="true"] {
-  @apply tabs__item--active;
+  color: #f9fafb;
+  border-color: #0ea5e9;
+  background-color: #7dd3fc;
 }
 
 /* Remove margin from tabs */
@@ -124,7 +254,7 @@ main article .margin-top--md {
 
 /* Also target the direct wrapper */
 .theme-doc-markdown > .margin-top--md {
-  @apply mt-0;
+  margin-top: 0;
 }
 
 /* Code blocks */
@@ -138,6 +268,9 @@ code {
 
 /* You can override the default Infima variables here. */
 :root {
+  --search-term-bg: #f6f8fa;
+  --search-term-border: #e1e4e8;
+  --search-term-color: #24292e;
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
@@ -145,7 +278,7 @@ code {
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
+  --ifm-code-font-size: text-sm !important;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
   /* Admonition colors */
@@ -170,8 +303,21 @@ code {
   --ifm-color-danger-contrast-foreground: #8d2828;
 }
 
+/*.search-term {
+  background-color: var(--search-term-bg);
+  border: 1px solid var(--search-term-border);
+  border-radius: 3px;
+  font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 85%;
+  padding: 0.2em 0.4em;
+  color: var(--search-term-color);
+}*/
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
+  --search-term-bg: #2f3439;
+  --search-term-border: #444d56;
+  --search-term-color: #e1e4e8;
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
