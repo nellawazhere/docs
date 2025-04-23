@@ -208,6 +208,10 @@
   border-color: #6b7280 !important; /* border-gray-400 for dark mode */
 }
 
+div.col.docItemCol_VOVn {
+  max-width: 90% !important;
+}
+
 /* Override Docusaurus tab styles with custom ones */
 [role="tabpanel"] {
   padding: 1rem;
