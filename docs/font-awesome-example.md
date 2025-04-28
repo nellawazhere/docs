@@ -1,6 +1,6 @@
 ---
 title: Font Awesome Icons
-sidebar_position: 1
+sidebar_position: 99
 ---
 
 # Using Font Awesome Icons

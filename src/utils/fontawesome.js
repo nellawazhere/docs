@@ -5,6 +5,10 @@ import {
   faSearch, 
   faUser, 
   faCheckCircle,
+  faChevronRight,
+  faChevronLeft,
+  faAngleDoubleRight,
+  faAngleDoubleLeft,
   // Add more solid icons as needed
 } from '@fortawesome/free-solid-svg-icons';
 
@@ -24,6 +28,10 @@ library.add(
   faSearch,
   faUser,
   faCheckCircle,
+  faChevronRight,
+  faChevronLeft,
+  faAngleDoubleRight,
+  faAngleDoubleLeft,
   faCalendar,
   faGithub,
   faTwitter

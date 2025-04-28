@@ -3,6 +3,8 @@ title: Scrolling and paging through search results
 sidebar_label: Scrolling and paging through search results
 sidebar_position: 5
 ---
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 ## Overview
 
@@ -70,4 +72,5 @@ Next, use the **page navigation tool** that's located at the top and bottom pa
 
 ![scrollbar](/img/viewing-search-results-and-edit/c9d7d84-ScrollSearchResultsPageNavTool.png)
 
-You can either **type the page number** you want to view and click **Go** to jump there, or use the navigation arrows. Click the <i class="fa fa-chevron-right fa-fw text-blue-light"></i> **right-facing single chevron** to step forward one page at a time, or click the <i class="fa fa-chevron-double-right fa-fw text-blue-light"></i> **righ-facing double chevron** to go to the very last page of your search results. (Move backward through your results using the <i class="fa fa-chevron-left fa-fw text-blue-light"></i> and <i class="fa fa-chevron-double-left fa-fw text-blue-light"></i> **left-facing chevrons**.)
+You can either **type the page number** you want to view and click **Go** to jump there, or use the navigation arrows. Click the <FontAwesomeIcon icon="chevron-right" color="#71b4eb"/> **right-facing single chevron** to step forward one page at a time, or click the <FontAwesomeIcon icon="angle-double-right" color="#71b4eb"/> **right-facing double chevron** to go to the very last page of your search results. (Move backward through your results using the <FontAwesomeIcon icon="chevron-left" color="#71b4eb"/> and <FontAwesomeIcon icon="angle-double-left" color="#71b4eb"/> **left-facing chevrons**.)
+
