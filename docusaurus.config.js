@@ -44,6 +44,10 @@ const config = {
     }
   ],
 
+  clientModules: [
+    require.resolve('./src/clientModules.js'),
+  ],
+
 
   presets: [
     [
