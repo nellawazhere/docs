@@ -1,0 +1,48 @@
+---
+id: tailwind-test
+title: Tailwind Test (MDX)
+description: Testing Tailwind in MDX files
+slug: /test
+---
+
+import React from 'react';
+import Admonition from '@theme/Admonition';
+
+# Tailwind + Admonition + Dark Mode Test
+
+This page checks that **Tailwind works** correctly with **Infima's admonitions** and that **dark mode styles apply**.
+
+---
+
+## 📘 Note
+
+<Admonition type="note" title="Note Title">
+This is a note. It should have a **light blue background** in light mode, and a **dark blue background** in dark mode.  
+Text should remain readable in both.
+</Admonition>
+
+---
+
+## 💡 Tip
+
+<Admonition type="tip" title="Pro Tip">
+You can use Tailwind inside `.mdx` files!  
+And this text should be **styled properly** in both themes.
+</Admonition>
+
+---
+
+## 🚨 Danger
+
+<Admonition type="danger" title="Watch Out">
+Make sure your dark mode colors contrast enough with the background.
+</Admonition>
+
+---
+
+## 🧪 Tailwind Heading Test
+
+<div className="prose dark:prose-invert">
+  <h2>Prose-styled Heading</h2>
+  <p>This paragraph and heading should invert colors in dark mode.</p>
+</div>

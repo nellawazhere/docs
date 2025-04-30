@@ -35,13 +35,23 @@ const config = {
                 path: require.resolve('path-browserify'),
                 os: require.resolve('os-browserify/browser'),
                 url: require.resolve('url/'),
-                fs: false
-              }
-            }
+                fs: false,
+              },
+            },
           };
-        }
+        },
       };
-    }
+    },
+    async function myPlugin(context, options) {
+      return {
+        name: 'docusaurus-tailwindcss',
+        configurePostCss(postcssOptions) {
+          postcssOptions.plugins.push(require('tailwindcss'));
+          postcssOptions.plugins.push(require('autoprefixer'));
+          return postcssOptions;
+        },
+      };
+    },
   ],
 
   clientModules: [

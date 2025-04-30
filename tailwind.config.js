@@ -1,11 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx,mdx}",
-    "./docs/**/*.mdx",
+    "./src/**/*.{js,jsx,ts,tsx,md,mdx}",
+    "./docs/**/*.{md,mdx}",
     "./blog/**/*.mdx",
     "./docusaurus.config.js",
-    "./src/pages/**/*.{js,jsx,ts,tsx}",
+    "./src/pages/**/*.{js,jsx,ts,tsx,md,mdx}",
   ],
   theme: {
     extend: {},
@@ -15,6 +15,7 @@ module.exports = {
   ],
   corePlugins: {
     preflight: false, // Disable Tailwind's reset to avoid conflicts with Infima
+    container: false, // Disable the container utility to avoid conflict with Infima framework
   },
   darkMode: ['class', '[data-theme="dark"]'],
 }
