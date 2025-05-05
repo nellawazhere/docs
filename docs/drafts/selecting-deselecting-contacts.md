@@ -4,19 +4,24 @@ sidebar_label: Selecting (and deselecting) contacts
 ---
 
 ## Intro
+
 When working with the contacts in your search results, you may decide that you want your actions to apply to every contact record returned in the search results, or you may want to include just certain records (and exclude others).
+
 This article will show you how to **select (and deselect) contact records** before [applying an action](../bulk-actions/) to them.
+
 ## Get started
-1. To select contacts, start by **running a search** to filter for just the contacts you want to work with. (Learn more about creating custom searches in the [Create and save a search](../../customize/create-and-save-a-search/) article).
+
+1. To select contacts, start by **running a search** to filter for just the contacts you want to work with. (Learn more about creating and saving searches in the [Search section](../search/index.md)).
 2. When the search results appear, you'll see the **selection tools** in the toolbar above the search results.
-1. The **selection tools** offer two choices:
+![Selection tools](/img/viewing-search-results-and-edit/wordpress-pull/post/images/f0d7716-SelectTools.png)
+3. The **selection tools** offer two choices:
     - click **all** to select all of the records in the search results
     - click **page** to select only the records shown on the current page of the search results
     - to **deselect** the records, click again on either "all" or "page"
 These selection options are explained in [more detail](../../../../undefined/help-articles/using-broadstripes/working-with-search-results/selecting-deselecting-contacts#section-select-the-current-page) below.
-1. You can also [select contacts manually](#ftoc-heading-5) as explained below.
-2. Once you've selected the contact records that you want, Broadstripes **places a check** next to their name on the search results panel, indicating that they're selected.
-1. A **badge** will also appear on the menu bar showing the number of records included in your selection.
+4. You can also [select contacts manually](#ftoc-heading-5) as explained below.
+5. Once you've selected the contact records that you want, Broadstripes **places a check** next to their name on the search results panel, indicating that they're selected.
+6. A **badge** will also appear on the menu bar showing the number of records included in your selection.
 This **badge** shows that from all the search results, 20 contact records have been selected.
 ## Selection options (details)
 ### Select the current page

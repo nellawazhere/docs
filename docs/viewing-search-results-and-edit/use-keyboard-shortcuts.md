@@ -6,7 +6,7 @@ sidebar_position: 10
 
 ## Navigate your search results without a mouse
 
-Broadstripes search comes with a set of keyboard shortcuts making your work even more efficient.
+Broadstripes search comes with a set of keyboard shortcuts making your work even more efficient.
 
 :::note
 These shortcuts are only available while you're in Broadstripes' **Search Results view**. The exception is the **" / " shortcut**, which works from any view and places your cursor into the search box where you can type a search query.
