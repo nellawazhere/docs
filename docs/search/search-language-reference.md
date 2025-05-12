@@ -2,13 +2,44 @@
 title: The Broadstripes search language
 sidebar_label: Search language reference
 sidebar_position: 65
+hide_table_of_contents: true
 ---
 
 ### Broadstripes Search Terms
 
 Broadstripes search allows you to quickly find a record or group of records using a wide variety of search criteria, including names, dates, word fragments, or even blank values. This document provides a reference list of the standard search terms available to most projects. An additional reference covers feature-specific searches that are not available in all projects.
 
-### Search Operators
+<div className="search-reference-filter">
+  <label htmlFor="section-jump" className="filter-label">Jump to section:</label>
+  <div className="filter-dropdown-container">
+    <select 
+      id="section-jump" 
+      className="filter-dropdown"
+      onChange={(e) => {
+        if (e.target.value) {
+          window.location.hash = e.target.value;
+        }
+      }}
+    >
+      <option value="">Select a section...</option>
+      <option value="search-operators">Search Operators</option>
+      <option value="basic-searches">Basic Searches</option>
+      <option value="general-searches">General Searches</option>
+      <option value="contact-info">Contact Info</option>
+      <option value="contact-timeline">Contact Timeline</option>
+      <option value="employment-dept-structure">Employment & Dept Structure</option>
+      <option value="leadership">Leadership</option>
+      <option value="project-specific-custom-data-searches">Custom Data</option>
+      <option value="events">Events</option>
+      <option value="call-center">Call Center</option>
+      <option value="texting">Texting</option>
+      <option value="bulk-email">Bulk Email</option>
+      <option value="communications-permissions">Communications Permissions</option>
+    </select>
+  </div>
+</div>
+
+<h3 id="search-operators">Search Operators</h3>
 
 | Operator | Matching type | Example |
 |----------|--------------|--------|
@@ -21,14 +52,14 @@ Broadstripes search allows you to quickly find a record or group of records usin
 | `>` | Values greater-than (numbers) or after (dates) | `CustomNumber > 50` finds contacts with a custom field over 50 |
 | `<` | Values less-than (numbers) or before (dates) | `LastContact < "1 month ago"` finds people last contacted over a month ago |
 
-### Basic Searches
+<h3 id="basic-searches">Basic Searches</h3>
 
 | Basic | Finds... | Details |
 |-------|---------|--------|
 | `carson` | people or orgs with the whole word "carson" in any text field (including all contact details, notes, timeline items, and custom text fields) | |
 | `john*` | people or orgs with the word fragment "john" in any text field, e.g. "John", "Johnson", or "Johnstown" | The asterisk is a wildcard character (not yet supported in keyword searches) |
 
-### General Searches
+<h3 id="general-searches">General Searches</h3>
 | General | Finds... | Details | Correlated Group |
 |---------|-----------|---------|------------------|
 | `name = parker` | people and orgs with the word "parker" anywhere in their name | | |
@@ -62,7 +93,7 @@ Broadstripes search allows you to quickly find a record or group of records usin
 | `phone : 202` | people and orgs with a phone number that contains the numbers "202" | Note: The ":" operator finds word or number fragments and is best for searching phone numbers. phone will also respond to following magic values: `any`, `none`, `good`, `bad`, `duplicate`, `repeated`, `error`, `home`, `other`, `personal`, `business` | |
 | `address = mapped` | people and orgs with an address that Broadstripes was able to geo-locate | address will also respond to following magic values: `review`, `repeated`, `bad`, `good`, `any`, `none`, `multiple` | |
 
-### Contact Timeline
+<h3 id="contact-timeline">Contact Timeline</h3>
 | Search Term | Finds... | Details | Correlated Group |
 |------------|-----------|---------|------------------|
 | `timeline = "willing to meet"` | people and orgs with the phrase "willing to meet" in any of their timeline notes | timeline will also respond to the following magic values: `any`, `none` | timelineauthor, contactedby, timelinedate, contact, timeline, timelinetype |
@@ -73,7 +104,7 @@ Broadstripes search allows you to quickly find a record or group of records usin
 | `contact = 1/10/2016` | people and orgs with a timeline entry dated "1/10/2016" with Direct Contact box checked | | timelineauthor, contactedby, timelinedate, contact, timeline, timelinetype |
 | `lastcontact < "1 year ago"` | people and orgs which have not had a timeline entry with "Direct Contact" box checked in the past year | | |
 
-### Employment & Dept Structure
+<h3 id="employment-dept-structure">Employment & Dept Structure</h3>
 | Search Term | Finds... | Details | Correlated Group |
 |------------|-----------|---------|------------------|
 | `employer = none` | people who have no employments | `employer` will respond to the following magic values: `unspecified`, `any` | Correlates with `bargainingunit`, `classification`, `jobtitle`, `senioritydate`, `startdate`, `department`, `employees`, `employer`, `indirect`, `hourlyrate`, `hours`, `primary`, `tipcard`, `isprimary`, `employment` |
@@ -86,7 +117,7 @@ Broadstripes search allows you to quickly find a record or group of records usin
 | `employment = multiple` | people who have more than one employer | `employment` will respond to the following magic values: `none`, `any`, `multiple`, `single` | Correlates with `bargainingunit`, `classification`, `jobtitle`, `senioritydate`, `startdate`, `department`, `employees`, `employer`, `indirect`, `hourlyrate`, `hours`, `primary`, `tipcard`, `isprimary`, `employment` |
 | `isprimary = yes` | people who have a primary employer | `isprimary` will respond to the following magic values: `yes`, `no`. *usually used with an employer search ie* `isprimary = yes AND employer = "Higbees"` *will return people whose primary employment is at Higbees* | Correlates with `bargainingunit`, `classification`, `jobtitle`, `senioritydate`, `startdate`, `department`, `employees`, `employer`, `indirect`, `hourlyrate`, `hours`, `primary`, `tipcard`, `isprimary`, `employment` |
 
-### Leadership
+<h3 id="leadership">Leadership</h3>
 | Search Term | Finds... | Details |
 |------------|-----------|----------|
 | `turf = "Nell Brown"` | people who are employed at any shop or department (including children of these orgs) in the turf assigned to organizer "Nell Brown" | `turf` will respond to the following magic values: `any`, `none`, `me` |
@@ -94,7 +125,7 @@ Broadstripes search allows you to quickly find a record or group of records usin
 | `leader = me` | people who are led by the current user | `leader` will respond to the following magic values: `any`, `none`, `me` |
 | `leader = "John Doe"` | people who are led by an organizer named "John Doe" | `leader` will respond to the following magic values: `any`, `none`, `me` |
 
-### Project-Specific & Custom Data Searches
+<h3 id="project-specific-custom-data-searches">Project-Specific & Custom Data Searches</h3>
 #### Relationships
 If the Broadstripes "relationship" function is enabled for your project, there will be one or more special "relationship types" defined, such as "Friend of …" or "Has influence with…" Each of these relationship types becomes a new search keyword.
 
@@ -110,7 +141,7 @@ External system fields are searchable, similar to custom fields.
 | `legacyid <= 25000` | people or orgs with a LegacyID less than or equal to 25000 | `legacyid` will respond to the following magic values: `any`, `none` |
 | `legacyid = none` | people or orgs which have no LegacyID code entered | `legacyid` will respond to the following magic values: `any`, `none` |
 
-### Events
+<h3 id="events">Events</h3>
 The examples below show how to search an event named "Card" that has two steps: "Signed" and "On File".
 
 | Search Term | Finds... | Details |
@@ -120,7 +151,7 @@ The examples below show how to search an event named "Card" that has two steps: 
 | `cardsigned = Joelle` | people who had the "Signed" step of the "Card" event checked by a user named "Joelle" | |
 | `cardsigned > "24 hours ago"` | people who had the "Signed" step of the "Card" event checked in the past 24 hours | |
 
-### Call Center
+<h3 id="call-center">Call Center</h3>
 | Search Term | Finds... | Details | Correlated Group |
 |------------|-----------|----------|------------------|
 | ` callpool = "Monday Grand Hotel"` | people who are a part of the call pool called Monday Grand Hotel | `callpool` will respond to the following magic values: `any`, `none` | Correlates with `callpool`, `calloutcome`, `called`, `caller`, `firstcall`, `lastcall` |
@@ -130,7 +161,7 @@ The examples below show how to search an event named "Card" that has two steps: 
 | `lastcall = "reached"` | people who were reached when last called | | Correlates with `callpool`, `calloutcome`, `called`, `caller`, `firstcall`, `lastcall` |
 | `called < 05/10/22` | people who were called before May 10, 2022 | `called` will respond to the following magic values: `any`, `none` | Correlates with `callpool`, `calloutcome`, `called`, `caller`, `firstcall`, `lastcall` |
 
-### Texting
+<h3 id="texting">Texting</h3>
 | Search Term | Finds... | Details | Correlated Group |
 |------------|-----------|----------|------------------|
 | `sms = delivered` | people who have successfully received a text message from a user | `sms` will respond to the following magic values: `incoming`, `outgoing`, `delivered`, `failed` | Correlates with `smsto`, `sms`, `smsfrom`, `smsdate` |
@@ -138,7 +169,7 @@ The examples below show how to search an event named "Card" that has two steps: 
 | `smsto = 2025551234` | people who have been sent a text message to the virtual number 202-555-1234 | | Correlates with `smsto`, `sms`, `smsfrom`, `smsdate` |
 | `sms = outgoing` | people who were sent a text message | | Correlates with `smsto`, `sms`, `smsfrom`, `smsdate` |
 
-### Bulk Email
+<h3 id="bulk-email">Bulk Email</h3>
 Each bulk email is assigned an id number. Below you will see examples of how to search for sent, opened, clicked, unsubscribed and failed emails using this unique id number.
 | Search Term | Finds... | Details | Correlated Group |
 |------------|-----------|----------|------------------|
@@ -148,7 +179,7 @@ Each bulk email is assigned an id number. Below you will see examples of how to 
 | `emailunsubscribed = 7` | people who unsubscribed from receiving email messages after receiving email #7 | |
 | `emailfailed = 3` | people who were sent email message #3 but the message failed | |
 
-### Communications Permissions
+<h3 id="communications-permissions">Communications Permissions</h3>
 | Search Term | Finds... | Details | Correlated Group |
 |------------|-----------|----------|------------------|
 | `emailopt = out` | people who are opted out of email contact | `emailopt` works with the following magic values: `out`, `in`, `unspecified` | Correlates with `emailmod`, `email`, `emailoptoutreason`, `emailoptinreason` |
