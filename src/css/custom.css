@@ -50,11 +50,7 @@
   a {
     @apply text-blue-500 no-underline hover:text-blue-700;
   }
-
-  img {
-    @apply rounded-lg shadow-sm my-4 mx-auto block;
-  }
-
+  
   figure {
     @apply flex flex-col items-center justify-center w-full;
   }
@@ -481,4 +477,9 @@ div[class*="theme-admonition-content"] {
 
 [data-theme='dark'] div[class*="theme-admonition-danger"] {
   @apply border-red-400 bg-red-900;
+}
+
+/* Apply styles only to images inside the docs content, not site logo  - this line of code must be after code for infima styles */
+.theme-doc-markdown img {
+  @apply block mx-auto my-6 rounded-sm shadow-md;
 }

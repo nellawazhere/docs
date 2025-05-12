@@ -82,11 +82,17 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       image: 'img/docusaurus-social-card.jpg',
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
       navbar: {
         title: 'Broadstripes Help Center',
         logo: {
           alt: 'Broadstripes Logo',
-          src: 'img/logo.svg',
+          src: 'img/broadstripeslogo.svg',
         },
         items: [
           {
