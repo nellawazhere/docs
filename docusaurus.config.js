@@ -68,6 +68,8 @@ const config = {
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/broadstripes/help-center/tree/main/',
           exclude: ['**/drafts/**'],
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: false,
         },
         theme: {
           customCss: [

@@ -1,5 +1,21 @@
 import React, { useState, useMemo } from 'react';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
+
+// Add custom styles for search terms
+const customStyles = `
+  .search-term {
+    background-color: #f3f4f6;
+    color: #dc2626;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    padding: 1px 2px;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: normal;
+    display: inline-block;
+    white-space: nowrap;
+  }
+`;
 
 export default function ReleaseNotesTable({ data }) {
   const [searchTerm, setSearchTerm] = useState('');
@@ -27,6 +43,8 @@ export default function ReleaseNotesTable({ data }) {
   };
 
   return (
+    <>
+      <style>{customStyles}</style>
     <div className="my-8 p-4 bg-surface rounded-lg shadow-sm w-full max-w-none">
       <div className="flex flex-wrap gap-4 mb-6">
         <input
@@ -85,14 +103,15 @@ export default function ReleaseNotesTable({ data }) {
                   </span>
                 </td>
                 <td className="p-4 border-b border-gray-200 prose prose-ul:list-disc prose-ul:pl-5 prose-ul:my-2 prose-li:my-1 prose-li:list-item prose-p:my-2 prose-strong:font-semibold">
-                  <ReactMarkdown>{item.description}</ReactMarkdown>
+                  <ReactMarkdown rehypePlugins={[rehypeRaw]}>{item.description}</ReactMarkdown>
                 </td>
-                <td className="p-4 pr-5 border-b border-gray-200 text-xs italic text-[#a3a4a6] whitespace-nowrap">{item.releasedate}</td>
+                <td className="p-4 pr-5 border-b border-gray-200 text-xs italic text-[#a3a4a6] whitespace-nowrap" style={{ minWidth: '100px' }}>{item.releasedate}</td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
     </div>
+    </>
   );
 }
