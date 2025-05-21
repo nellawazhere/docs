@@ -789,7 +789,7 @@ export const releaseNotes = [
   {
     type: "New/Improved",
     category: "Search",
-    description: "The timelinetype search keyword now works for word-matching in addition to exact matching.",
+    description: "The <span class=\"search-term\">timelinetype</span> search keyword now works for word-matching in addition to exact matching.",
     releasedate: "2023 June"
   },
   {
@@ -807,7 +807,7 @@ export const releaseNotes = [
   {
     type: "New/Improved",
     category: "Search",
-    description: "The search keyword nickname is available in the search builder tool. nickname is also compatible with magic values, any and none.",
+    description: "The search keyword <span class=\"search-term\">nickname</span> is available in the search builder tool. nickname is also compatible with magic values, any and none.",
     releasedate: "2023 June"
   },
   {
@@ -1257,7 +1257,7 @@ export const releaseNotes = [
   {
     type: "New/Improved",
     category: "SMS",
-    description: "Users can search for contacts who have one or more cell phones that have encountered an error when sent an SMS message. A search using the \"phone\" or \"cell\" search keywords with the magic value \"error\" like so: \"phone = error\". The keyword can also be found in the search builder.",
+    description: "Users can search for contacts who have one or more cell phones that have encountered an error when sent an SMS message. A search using the <span class=\"search-term\">phone</span> or <span class=\"search-term\">cell</span> search keywords with the magic value <span class=\"search-term\">error</span> like so: <span class=\"search-term\">phone = error</span>. The keyword can also be found in the search builder.",
     releasedate: "2022 July"
   },
   {
@@ -1275,7 +1275,7 @@ export const releaseNotes = [
   {
     type: "New/Improved",
     category: "Search",
-    description: "The behavior of the search keyword #type# was made more useful and consistent for finding contacts. Negative searches now work (e.g. #type != person# will find all contacts which are organizations or organization sub-types). Exact-matching also works (e.g. #type == person# finds contacts of the Person type not those of any sub-types).",
+    description: "The behavior of the search keyword <span class=\"search-term\">type</span> was made more useful and consistent for finding contacts. Negative searches now work (e.g. <span class=\"search-term\">type != person</span> will find all contacts which are organizations or organization sub-types). Exact-matching also works (e.g. <span class=\"search-term\">type == person</span> finds contacts of the Person type not those of any sub-types).",
     releasedate: "2022 July"
   },
   {
@@ -1311,13 +1311,13 @@ export const releaseNotes = [
   {
     type: "New/Improved",
     category: "Search",
-    description: "SMS search keywords have expanded. \"Smsdate\" will return people who have sent or received a message on a certain date or in a certain date range. \"Smsfrom\" and \"smsto\" return people who have received a text from or sent a text to a specified user. The values can be a name or a virtual phone number. The existing ``sms`` keyword has been enhanced so that it will respond to the magic values: incoming outgoing delivered undelivered unknown failed. These keywords and values may be found in the search builder.",
+    description: "SMS search keywords have expanded. <span class=\"search-term\">smsdate</span> will return people who have sent or received a message on a certain date or in a certain date range. <span class=\"search-term\">smsfrom</span> and <span class=\"search-term\">smsto</span> return people who have received a text from or sent a text to a specified user. The values can be a name or a virtual phone number. The existing <span class=\"search-term\">sms</span> keyword has been enhanced so that it will respond to the magic values: <span class=\"search-term\">incoming</span> <span class=\"search-term\">outgoing</span> <span class=\"search-term\">delivered</span> <span class=\"search-term\">undelivered</span> <span class=\"search-term\">unknown</span> <span class=\"search-term\">failed</span>. These keywords and values may be found in the search builder.",
     releasedate: "2022 June"
   },
   {
     type: "New/Improved",
     category: "SMS",
-    description: "SMS messages are now assigned a serial index number. Users can search for contacts that have received a specific message by search using this number. ie ``sms = 22`` will return all contacts who were sent this sms message #22",
+    description: "SMS messages are now assigned a serial index number. Users can search for contacts that have received a specific message by search using this number. ie <span class=\"search-term\">sms = 22</span> will return all contacts who were sent this sms message #22",
     releasedate: "2022 June"
   },
   {
@@ -1339,7 +1339,7 @@ export const releaseNotes = [
     releasedate: "2022 May"
   },
   {
-    type: "Improved",
+    type: "New/Improved",
     category: "SMS",
     description: "The bulk and individual text-messaging tools allow a user to attach/include an image in a text message.",
     releasedate: "2022 April"
@@ -1383,7 +1383,7 @@ export const releaseNotes = [
   {
     type: "New/Improved",
     category: "Search",
-    description: "A ``sms = failed`` magic value allows the user to search for people with failed SMS messages.",
+    description: "A <span class=\"search-term\">sms = failed</span> magic value allows the user to search for people with failed SMS messages.",
     releasedate: "2021 December"
   },
   {
@@ -1423,7 +1423,7 @@ export const releaseNotes = [
     releasedate: "2021 November"
   },
   {
-    type: "Improved",
+    type: "New/Improved",
     category: "Public forms",
     description: "The \"introduction\" section of the public form recognizes HTML tags.",
     releasedate: "2021 November"
@@ -1485,7 +1485,7 @@ export const releaseNotes = [
   {
     type: "New/Improved",
     category: "Search",
-    description: "Users can search for assessment/code changes by date and by the name of the user who made the change. This means that ``lastassessment = Jimmy`` will return all contacts whose assessment was last changed by Jimmy and `` lastassessment < 08/10/19`` will return all contacts who were changed before August 10 2019. In search results a popup will also appear with the date and creator of the last assessment change when you hover over the assessment column.",
+    description: "Users can search for assessment/code changes by date and by the name of the user who made the change. This means that <span class=\"search-term\">lastassessment = Jimmy</span> will return all contacts whose assessment was last changed by Jimmy and <span class=\"search-term\">lastassessment < 08/10/19</span> will return all contacts who were changed before August 10 2019. In search results a popup will also appear with the date and creator of the last assessment change when you hover over the assessment column.",
     releasedate: "2021 October"
   },
   {
@@ -1605,13 +1605,13 @@ export const releaseNotes = [
   {
     type: "New/Improved",
     category: "Search",
-    description: "A new search keyword ``calloutcome`` allows users to search for contacts by the outcome. i.e. ``calloutcome = interrupted`` will return any contacts who received a call that was interrupted.",
+    description: "A new search keyword <span class=\"search-term\">calloutcome</span> allows users to search for contacts by the outcome. i.e. <span class=\"search-term\">calloutcome = interrupted</span> will return any contacts who received a call that was interrupted.",
     releasedate: "2021 March"
   },
   {
     type: "New/Improved",
     category: "Search",
-    description: "Call Center searches are correlated meaning that all call-related criteria are applied \"together\" (rather than independently of each other) to each call in a person's timeline. For example the search ``calloutcome = reached`` AND ``called = today`` will find people who were reached today not people who were called today with any outcome and who have ever been reached by any caller.",
+    description: "Call Center searches are correlated meaning that all call-related criteria are applied \"together\" (rather than independently of each other) to each call in a person's timeline. For example the search <span class=\"search-term\">calloutcome = reached</span> AND <span class=\"search-term\">called = today</span> will find people who were reached today not people who were called today with any outcome and who have ever been reached by any caller.",
     releasedate: "2021 March"
   },
   {
@@ -1731,7 +1731,7 @@ export const releaseNotes = [
   {
     type: "New/Improved",
     category: "Search",
-    description: "The \"caller\" search keyword returns people who were called by someone matching the provided search value. People may be found by using the caller's name email or phone number (i.e. ``caller = jane.doe@example.com``). This keyword also works with the magic values \"any\" and \"none.\"",
+    description: "The <span class=\"search-term\">caller</span> search keyword returns people who were called by someone matching the provided search value. People may be found by using the caller's name email or phone number (i.e. <span class=\"search-term\">caller = jane.doe@example.com</span>). This keyword also works with the magic values <span class=\"search-term\">any</span> and <span class=\"search-term\">none</span>.",
     releasedate: "2020 August"
   },
   {
@@ -1749,7 +1749,7 @@ export const releaseNotes = [
   {
     type: "New/Improved",
     category: "Search",
-    description: "Exact-matching operator options are available for classification/job title in the Search Builder. i.e ``classification == Cook``",
+    description: "Exact-matching operator options are available for classification/job title in the Search Builder. i.e <span class=\"search-term\">classification == Cook</span>",
     releasedate: "2020 August"
   },
   {
@@ -1767,7 +1767,7 @@ export const releaseNotes = [
   {
     type: "New/Improved",
     category: "Search",
-    description: "A new keyword is available to search for call pools. The term ``callpool = Campaign Six`` will return all contacts in the Campaign Six call pool.",
+    description: "A new keyword is available to search for call pools. The term <span class=\"search-term\">callpool = Campaign Six</span> will return all contacts in the Campaign Six call pool.",
     releasedate: "2020 August"
   },
   {
@@ -1809,7 +1809,7 @@ export const releaseNotes = [
   {
     type: "New/Improved",
     category: "Search",
-    description: "A new search keyword ``employment`` allows users to find workers by the number of employments they have. The keyword works only with the following magic values:`` any`` ``none`` ``single`` ``multiple``. For example ``employment = single`` finds people with one employment.",
+    description: "A new search keyword <span class=\"search-term\">employment</span> allows users to find workers by the number of employments they have. The keyword works only with the following magic values: any none single multiple. For example <span class=\"search-term\">employment = single</span> finds people with one employment.",
     releasedate: "2020 July"
   },
   {
@@ -1893,7 +1893,7 @@ export const releaseNotes = [
   {
     type: "New/Improved",
     category: "SMS",
-    description: "Contents of SMS conversations are searchable by both free-text and \"sms\" keyword. i.e ``sms = \"I want to volunteer\"`` will return all contacts who had a SMS conversation containing the text \"I want to volunteer\"",
+    description: "Contents of SMS conversations are searchable by both free-text and \"sms\" keyword. i.e <span class=\"search-term\">sms = \"I want to volunteer\"</span> will return all contacts who had a SMS conversation containing the text \"I want to volunteer\"",
     releasedate: "2020 April"
   },
   {
@@ -2097,7 +2097,7 @@ export const releaseNotes = [
   {
     type: "Fixed",
     category: "Search results/layout",
-    description: "The ``leadersrole = none`` search wasn't always working correctly when the leadership tree reached three or more levels.",
+    description: "The <span class=\"search-term\">leadersrole = none</span> search wasn't always working correctly when the leadership tree reached three or more levels.",
     releasedate: "2018 January"
   },
   {
@@ -2107,25 +2107,25 @@ export const releaseNotes = [
     releasedate: "2017 December"
   },
   {
-    type: "Improved",
+    type: "New/Improved",
     category: "User Experience/UI",
     description: "The mobile UI allows users to view and edit address notes.",
     releasedate: "2017 December"
   },
   {
-    type: "Improved",
+    type: "New/Improved",
     category: "Search",
     description: "The responsiveness of search box autocomplete was improved.",
     releasedate: "2017 December"
   },
   {
-    type: "Improved",
+    type: "New/Improved",
     category: "Relationships",
     description: "Relationships cells in spreadsheet reports no longer contain dashed separator lines between relationships as the cells could get too big.",
     releasedate: "2017 December"
   },
   {
-    type: "Improved",
+    type: "New/Improved",
     category: "Social Groups",
     description: "The page that lists organizations with social groups provides a count of the number of groups.",
     releasedate: "2017 December"
@@ -2139,7 +2139,7 @@ export const releaseNotes = [
   {
     type: "Fixed",
     category: "Search results/layout",
-    description: "Searching for ``code = none`` was returning people who had a code with no descriptive text.",
+    description: "Searching for <span class=\"search-term\">code = none</span> was returning people who had a code with no descriptive text.",
     releasedate: "2017 December"
   },
   {
@@ -2167,25 +2167,25 @@ export const releaseNotes = [
     releasedate: "2017 November"
   },
   {
-    type: "Improved",
+    type: "New/Improved",
     category: "Search",
     description: "The search builder supports shape group names as a search keyword with shape names (or \"any\" or \"none\") as the search value.",
     releasedate: "2017 November"
   },
   {
-    type: "Improved",
+    type: "New/Improved",
     category: "User Experience/UI",
     description: "The social group page header displays the full \"hierarchical\" name of the shop or department.",
     releasedate: "2017 November"
   },
   {
-    type: "Improved",
+    type: "New/Improved",
     category: "Search",
-    description: "When using the \"department\" keyword in the search builder the value autocomplete displays only the department name not the full shop hierarchy.",
+    description: "When using the <span class=\"search-term\">department</span> keyword in the search builder the value autocomplete displays only the department name not the full shop hierarchy.",
     releasedate: "2017 November"
   },
   {
-    type: "Improved",
+    type: "New/Improved",
     category: "Search",
     description: "Timeline conditions in a search are applied \"together\" to the evaluated timeline items. This means that if you run a search for people with a timeline date after the first of the year and containing the word \"basketball\" the results will only include people who have a timeline item containing the word basketball that was created after the first of they year. Previously that search would find anyone with a timeline item containing the word \"basketball\" and a timeline item created after the first of the year.",
     releasedate: "2017 November"
@@ -2487,7 +2487,7 @@ export const releaseNotes = [
   {
     type: "Fixed",
     category: "Search",
-    description: "Negative employer searches (e.g. ``employer != \"Big Shop\"``) were behaving inconsistently for people with multiple employments.",
+    description: "Negative employer searches (e.g. <span class=\"search-term\">employer != \"Big Shop\"</span>) were behaving inconsistently for people with multiple employments.",
     releasedate: "2017 August"
   },
   {
@@ -2517,7 +2517,7 @@ export const releaseNotes = [
   {
     type: "New/Improved",
     category: "Admin",
-    description: "A new switch on the General Settings page allows an admin to change the name of the \"Classification\" field to \"Job Title.\" Note: There is already a separate field on the employment called \"Job Title.\" Turning on this switch effectively hides and disables that field because the former \"Classification\" field now has that name. When this switch is on you can search and sort on \"jobtitle\" which will have the same effect as the \"classification\" keyword.",
+    description: "A new switch on the General Settings page allows an admin to change the name of the \"Classification\" field to \"Job Title.\" Note: There is already a separate field on the employment called \"Job Title.\" Turning on this switch effectively hides and disables that field because the former \"Classification\" field now has that name. When this switch is on you can search and sort on <span class=\"search-term\">jobtitle</span> which will have the same effect as the <span class=\"search-term\">classification</span> keyword.",
     releasedate: "2017 June"
   },
   {
@@ -2583,7 +2583,7 @@ export const releaseNotes = [
   {
     type: "Fixed",
     category: "Search",
-    description: "Negative employer searches (e.g. ``employer != \"Big Shop\"``) were behaving inconsistently for people with multiple employments.",
+    description: "Negative employer searches (e.g. <span class=\"search-term\">employer != \"Big Shop\"</span>) were behaving inconsistently for people with multiple employments.",
     releasedate: "2017 June"
   },
   {
