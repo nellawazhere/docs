@@ -225,7 +225,7 @@ export const releaseNotes = [
   {
     type: "New/Improved",
     category: "User Experience/UI",
-    description: "User specific settings page has been split into two seperate pages and moved to the Settings menu. There is now page for **Your project settings** that includes:\n\n- the link to the user's linked person (if any)\n- the default timeline type drop-down under\n- the API token\n- the project ID\n\nThere is also a page for general **User settings** that includes:\n- Change password\n- Change name and email address\n- SMS notification settings\n- Project switching preferences",
+    description: "User specific settings page has been split into two seperate pages and moved to the Settings menu. There is now a page for **Your project settings** that includes:\n\n- the link to the user's linked person (if any)\n- the default timeline type drop-down under\n- the API token\n- the project ID\n\nThere is also a page for general **User settings** that includes:\n- Change password\n- Change name and email address\n- SMS notification settings\n- Project switching preferences",
     releasedate: "2024 November"
   },
   {

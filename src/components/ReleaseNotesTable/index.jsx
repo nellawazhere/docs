@@ -14,11 +14,48 @@ export default function ReleaseNotesTable({ data }) {
   const [typeFilter, setTypeFilter] = useState('');
   const [categoryFilter, setCategoryFilter] = useState('');
 
+  // Helper function to strip HTML and markdown tags
+  const stripTags = (text) => {
+    if (typeof text !== 'string') return '';
+    
+    // Remove HTML tags
+    const withoutHtml = text.replace(/<[^>]*>/g, '');
+    
+    // Remove markdown formatting
+    return withoutHtml
+      .replace(/\*\*|__/g, '') // Bold
+      .replace(/\*|_/g, '')     // Italic
+      .replace(/~~|\^/g, '')    // Strikethrough
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // Links
+      .replace(/#{1,6}\s/g, '') // Headers
+      .replace(/`{1,3}/g, '')    // Code blocks
+      .replace(/\n/g, ' ')      // Newlines
+      .replace(/\s+/g, ' ')     // Extra whitespace
+      .trim();
+  };
+
   const filteredData = useMemo(() => {
+    if (!searchTerm.trim()) {
+      return data.filter(item => {
+        const matchesType = !typeFilter || item.type === typeFilter;
+        const matchesCategory = !categoryFilter || item.category === categoryFilter;
+        return matchesType && matchesCategory;
+      });
+    }
+    
+    const searchTermLower = searchTerm.toLowerCase();
+    
     return data.filter(item => {
-      const matchesSearch = Object.values(item).some(value =>
-        value.toLowerCase().includes(searchTerm.toLowerCase())
-      );
+      // Create a stripped version of each value for searching
+      const matchesSearch = Object.entries(item).some(([key, value]) => {
+        // Only search in text fields
+        if (typeof value === 'string') {
+          const strippedValue = stripTags(value).toLowerCase();
+          return strippedValue.includes(searchTermLower);
+        }
+        return false;
+      });
+      
       const matchesType = !typeFilter || item.type === typeFilter;
       const matchesCategory = !categoryFilter || item.category === categoryFilter;
       return matchesSearch && matchesType && matchesCategory;
