@@ -5,15 +5,7 @@ import rehypeRaw from 'rehype-raw';
 // Add custom styles for search terms
 const customStyles = `
   .search-term {
-    background-color: #f3f4f6;
-    color: #dc2626;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    padding: 1px 2px;
-    border-radius: 4px;
-    font-size: 0.875rem;
-    font-weight: normal;
-    display: inline-block;
-    white-space: nowrap;
+    bg-gray-100 text-red-600 font-mono text-sm font-normal px-0.5 py-px rounded inline-block whitespace-nowrap
   }
 `;
 

@@ -2523,7 +2523,7 @@ export const releaseNotes = [
   {
     type: "New/Improved",
     category: "Admin",
-    description: "Another new switch on the General Settings page allows an admin to change the name of the \"Code\" field to \"Assessment.\" When this switch is on you can search and sort on \"assessment\".",
+    description: "Another new switch on the General Settings page allows an admin to change the name of the \"Code\" field to \"Assessment.\" When this switch is on you can search and sort on <span class=\"search-term\">assessment</span>.",
     releasedate: "2017 June"
   },
   {
