@@ -18,5 +18,11 @@ import DocCardList from '@theme/DocCardList';
     href: '../viewing-search-results-and-edit/use-keyboard-shortcuts',
     label: 'Using keyboard shortcuts',
     description: 'Using keyboard shortcuts'
+  },
+  {
+    type: 'link',
+    href: '../viewing-search-results-and-edit/selecting-deselecting-contacts',
+    label: 'Selecting (and deselecting) contacts',
+    description: 'Selecting (and deselecting) contacts'
   }
 ]} />
