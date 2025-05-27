@@ -24,5 +24,11 @@ import DocCardList from '@theme/DocCardList';
     href: '../viewing-search-results-and-edit/selecting-deselecting-contacts',
     label: 'Selecting (and deselecting) contacts',
     description: 'Selecting (and deselecting) contacts'
+  },
+  {
+    type: 'link',
+    href: '../viewing-search-results-and-edit/bulk-actions',
+    label: 'Bulk actions',
+    description: 'Bulk actions'
   }
 ]} />
