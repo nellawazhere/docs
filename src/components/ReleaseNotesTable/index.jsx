@@ -108,14 +108,14 @@ export default function ReleaseNotesTable({ data }) {
         </select>
       </div>
 
-      <div className="w-full overflow-x-auto">
-        <table className="w-full border-separate border-spacing-0 mb-4">
+      <div className="w-full overflow-auto" style={{ maxHeight: '500px' }}>
+        <table className="w-full border border-gray-300 rounded-md mb-4">
           <thead>
             <tr>
-              <th className="whitespace-nowrap w-[100px] bg-[#b21700] font-semibold text-white sticky top-0 z-10 p-4 pl-5 text-left">Type</th>
-              <th className="whitespace-nowrap w-[180px] align-middle bg-[#b21700] font-semibold text-white sticky top-0 z-10 p-4 text-left">Category</th>
-              <th className="bg-[#b21700] font-semibold text-white sticky top-0 z-10 p-4 text-left">Description</th>
-              <th className="bg-[#b21700] font-semibold text-white sticky top-0 z-10 p-4 pr-5 text-left">Release Date</th>
+              <th className="whitespace-nowrap w-[100px] bg-[#b21700] dark:bg-[#8e1500] font-semibold text-white sticky top-0 z-10 p-4 pl-5 text-left">Type</th>
+              <th className="whitespace-nowrap w-[180px] align-middle bg-[#b21700] dark:bg-[#8e1500] font-semibold text-white sticky top-0 z-10 p-4 text-left">Category</th>
+              <th className="bg-[#b21700] dark:bg-[#8e1500] font-semibold text-white sticky top-0 z-10 p-4 text-left">Description</th>
+              <th className="bg-[#b21700] dark:bg-[#8e1500] font-semibold text-white sticky top-0 z-10 p-4 pr-5 text-left">Release Date</th>
             </tr>
           </thead>
           <tbody>
@@ -127,14 +127,14 @@ export default function ReleaseNotesTable({ data }) {
                   </span>
                 </td>
                 <td className="whitespace-nowrap align-middle p-4 border-b border-gray-200">
-                  <span className="text-xs font-bold text-white align-middle bg-[#b21700] border border-[#bebebe] border-opacity-30 rounded-md p-1 inline whitespace-nowrap">
+                  <span className="text-xs font-bold text-[#a10202] align-middle bg-[#f4dbdb] border border-[#bebebe] border-opacity-30 rounded-xl px-2 p-1 inline whitespace-nowrap">
                     {item.category}
                   </span>
                 </td>
                 <td className="p-4 border-b border-gray-200 prose prose-ul:list-disc prose-ul:pl-5 prose-ul:my-2 prose-li:my-1 prose-li:list-item prose-p:my-2 prose-strong:font-semibold">
                   <ReactMarkdown rehypePlugins={[rehypeRaw]}>{item.description}</ReactMarkdown>
                 </td>
-                <td className="p-4 pr-5 border-b border-gray-200 text-xs italic text-[#a3a4a6] whitespace-nowrap" style={{ minWidth: '100px' }}>{item.releasedate}</td>
+                <td className="p-4 pr-5 border-b border-gray-200 text-base text-[#a3a4a6] whitespace-nowrap" style={{ minWidth: '100px' }}>{item.releasedate}</td>
               </tr>
             ))}
           </tbody>
