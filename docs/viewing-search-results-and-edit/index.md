@@ -27,8 +27,14 @@ import DocCardList from '@theme/DocCardList';
   },
   {
     type: 'link',
-    href: '../viewing-search-results-and-edit/bulk-actions',
+    href: '../viewing-search-results-and-edit/bulk-actions/bulk-actions',
     label: 'Bulk actions',
-    description: 'Bulk actions'
+    description: 'Intro to Bulk Actions'
+  },
+  {
+    type: 'link',
+    href: '../viewing-search-results-and-edit/bulk-actions/bulk-actions-send-email',
+    label: 'Bulk actions - Send email',
+    description: 'Bulk actions - Send email'
   }
 ]} />
