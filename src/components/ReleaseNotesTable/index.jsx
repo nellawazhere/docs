@@ -81,7 +81,7 @@ export default function ReleaseNotesTable({ data }) {
   placeholder="Search release notes..."
   value={searchTerm}
   onChange={(e) => setSearchTerm(e.target.value)}
-  className="flex-1 min-w-[200px] px-4 py-2 border border-gray-300 rounded-md text-base bg-background text-foreground placeholder-gray-400 dark:placeholder-gray-350 focus:outline-none dark:focus:bg-gray-800 focus:border-primary focus:ring-2 focus:ring-primary/60"
+  className="flex-1 min-w-[200px] px-4 py-2 border border-gray-300 rounded-md text-base bg-background text-foreground placeholder-gray-400 dark:placeholder-gray-350 focus:outline-none dark:focus:bg-stone-900 focus:border-primary focus:ring-2 focus:ring-primary/60"
   aria-label="Search release notes"
 />
         <select
@@ -112,15 +112,15 @@ export default function ReleaseNotesTable({ data }) {
         <table style={{ borderWidth: '.5px' }} className="w-full border-separate border-spacing-0 mb-4">
           <thead>
             <tr>
-              <th className="whitespace-nowrap w-[100px] bg-[#b21700] dark:bg-[#8e1500] border-[#b21700] dark:border-[#8e1500] font-semibold text-white sticky top-0 z-10 p-4 pl-5 text-left">Type</th>
-              <th className="whitespace-nowrap w-[180px] align-middle bg-[#b21700] dark:bg-[#8e1500] border-[#b21700] dark:border-[#8e1500] font-semibold text-white sticky top-0 z-10 p-4 text-left">Category</th>
-              <th className="bg-[#b21700] dark:bg-[#8e1500] border-[#b21700] dark:border-[#8e1500] font-semibold text-white sticky top-0 z-10 p-4 text-left">Description</th>
-              <th className="bg-[#b21700] dark:bg-[#8e1500] border-[#b21700] dark:border-[#8e1500] font-semibold text-white sticky top-0 z-10 p-4 pr-5 text-left">Release Date</th>
+              <th className="whitespace-nowrap w-[100px] bg-red-700 dark:bg-red-800 border-red-700 dark:border-red-800 font-semibold text-white sticky top-0 z-10 p-4 pl-5 text-left">Type</th>
+              <th className="whitespace-nowrap w-[180px] align-middle bg-red-700 dark:bg-red-800 border-red-700 dark:border-red-800 font-semibold text-white sticky top-0 z-10 p-4 text-left">Category</th>
+              <th className="bg-red-700 dark:bg-red-800 border-red-700 dark:border-red-800 font-semibold text-white sticky top-0 z-10 p-4 text-left">Description</th>
+              <th className="bg-red-700 dark:bg-red-800 border-red-700 dark:border-red-800 font-semibold text-white sticky top-0 z-10 p-4 pr-5 text-left">Release Date</th>
             </tr>
           </thead>
           <tbody>
             {filteredData.map((item, index) => (
-              <tr key={index} className="hover:bg-red-100/20 dark:hover:bg-gray-900">
+              <tr key={index} className="hover:bg-red-50/50 dark:hover:bg-stone-950">
                 <td 
                 style={{ borderWidth: '0.5px' }}
                 className="whitespace-nowrap p-4 pl-5 border-b border-gray-200 dark:border-gray-800">
@@ -132,7 +132,7 @@ export default function ReleaseNotesTable({ data }) {
                 <td  
                 style={{ borderWidth: '0.5px' }}
                 className="whitespace-nowrap align-middle p-4 border-b border-gray-200 dark:border-gray-800">
-                  <span className="text-xs font-bold text-[#a10202] dark:text-white align-middle bg-red-100 dark:bg-[#ac1b1b] border border-[#bebebe] border-opacity-30 rounded-xl px-2 p-1 inline whitespace-nowrap">
+                  <span className="text-xs font-bold text-red-800 dark:text-white align-middle bg-red-100 dark:bg-red-700 border border-opacity-30 rounded-xl px-2 p-1 inline whitespace-nowrap">
                     {item.category}
                   </span>
                 </td>
