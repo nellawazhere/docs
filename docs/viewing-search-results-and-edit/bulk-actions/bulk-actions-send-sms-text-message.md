@@ -1,10 +1,9 @@
 ---
-title: Actions - Text (send bulk SMS messages)
-sidebar_label: Actions - Text (send bulk SMS messages)
+title: Actions - Send text (send bulk SMS messages)
+sidebar_label: Send text (send bulk SMS messages)
+sidebar_position: 30
 ---
 
-# Action: Text
-* * *
 ## Send SMS texts to multiple workers
 This action allows you to send individual text messages to a group of workers all at once. See the [Text messaging overview article](https://help.broadstripes.com/videos/text-messaging-with-broadstripes-video/) or watch the [Text messaging with Broadstripes](https://help.broadstripes.com/help-articles/using-broadstripes/working-with-search-results/text-messaging-with-broadstripes/) video to learn more about using Broadstripes to send (and receive) text messages.
 If you don't see the **"Text"** option on your drop down menu, it means you haven't been granted permission to use the feature. Talk to your admin to get set up.
@@ -17,22 +16,26 @@ Three things need to happen before you start sending texts in Broadstripes:
 3. You need to **add your own (real) cell number to your Broadstripes user account** so that Broadstripes can notify you if someone you text sends a message back.
 You can learn how to complete these prerequisites in the [Text messaging overview article](https://help.broadstripes.com/help-articles/using-broadstripes/messaging/text-messaging/) which also includes a step-by-step video.
 ## Sending a text message to multiple workers at once
-#### You can only send to "Opted in" cell numbers
+
+:::info You can only send to "Opted in" cell numbers
 Broadstripes can only send a text to workers who have been marked “**Opted in**,” indicating that they’ve agreed to receive messages.
+
 If you're not sure how to add a new cell phone number or update an existing number indicating it's been "opted in," take a look at the [Text messaging permissions - Opt in](https://help.broadstripes.com/help-articles/using-broadstripes/working-with-search-results/text-messaging-opted-in-permissions/) article.
+:::
+
 In this example, we'll send a text message to every opted in worker at Basic Hotel asking them to try to build support in their respective departments. Here's how:
-1. First, we'll run a search for people who work at **Basic Hotel**. (If you need help running a search, check out the [Create and save a search](https://help.broadstripes.com/help-articles/using-broadstripes/customize/create-and-save-a-search/) article.)
-2. From the **Search Results** page, we'll [select all the workers](/help-articles/using-broadstripes/working-with-search-results/selecting-deselecting-contacts/#ftoc-heading-2). At the time this article was written, you were allowed to send up to 100 messages at once. Check with your admin to find out if that’s changed.![](/img/getting-started/Text_Send_Select_Workers.png)
-3. Under **Actions**, we’ll choose “**Text.**”![](/img/getting-started/Text_Send_Actions.png)
-4. Next, **compose a short text message** (160-characters or fewer).
-5. Broadstripes makes it easy to personalize the message with dynamic **merge fields** like "**First Name**" or "**Department**." To use a merge field, just choose it from the **drop-down menu** and it will be inserted into the body of your text message.![](/img/getting-started/Text_Send_Dynamic_Merge.png)
-6. Below the message, you'll see the **virtual phone** number you're sending from. If you have more than one number assigned to you, you can choose which to use from the **drop-down menu**.![](/img/getting-started/Text_Send_VirtPhone.png)
-7. Click **Send,** and an individual message will go out to each person you’ve selected. Remember, text messages will only be sent to workers with cell phones that are **opted in**. (Workers in the selection who don’t have an opted in cell will be ignored.)![](/img/getting-started/Text_Send_Complete.png)
+1. First, we'll run a search for people who work at **Basic Hotel**. (If you need help running a search, check out the [Search section](../search/index.md).)
+2. From the **Search Results** page, we'll [select all the workers](../selecting-deselecting-contacts/index.md). At the time this article was written, you were allowed to send up to 10,000 messages at once. Check with your admin to find out if that’s changed.![](/img/viewing-search-results-and-edit/Text_Send_Select_Workers.png)
+3. Under **Actions**, we’ll choose “**Text.**”![](/img/viewing-search-results-and-edit/Text_Send_Actions.png)
+4. Next, **compose a short text message** (160-characters or fewer is considered a standard SMS message).
+5. Broadstripes makes it easy to personalize the message with dynamic [merge fields](../communications/using-merge-fields.md) like "**First Name**" or "**Department**." To use a merge field, just choose it from the **drop-down menu** and it will be inserted into the body of your text message.![](/img/viewing-search-results-and-edit/Text_Send_Dynamic_Merge.png)
+6. Below the message, you'll see the **virtual phone** number you're sending from. If you have more than one number assigned to you, you can choose which to use from the **drop-down menu**.![](/img/viewing-search-results-and-edit/Text_Send_VirtPhone.png)
+7. Click **Send,** and an individual message will go out to each person you’ve selected. Remember, text messages will only be sent to workers with cell phones that are **opted in**. (Workers in the selection who don’t have an opted in cell will be ignored.)![](/img/viewing-search-results-and-edit/Text_Send_Complete.png)
 ## Sending a text to a single worker
 You can also send a text to just one worker. You can use the method above (selecting only their name from the search results), or you can use a shortcut on their contact detail pop-up window:
-1. From the **Search Results** page, hover over the   **looking glass icon** next to the worker's name.![](/img/getting-started/Text_Send_1Msg.png)
-2. Click the **phone icon** shortcut at the bottom of the pop-up window.![](/img/getting-started/Text_Send_1MsgIcon.png)
-3. Compose a short message (160 characters or fewer) and hit **Send.![](/img/getting-started/Text_Send_1MsgComplete.png)**
+1. From the **Search Results** page, hover over the **info (i) icon** next to the worker's name.![](/img/viewing-search-results-and-edit/Text_Send_1Msg.png)
+2. Click the **SMS icon** shortcut at the bottom of the pop-up window.![](/img/viewing-search-results-and-edit/Text_Send_1MsgIcon.png)
+3. Compose a short message (160 characters or fewer) and hit **Send**![](/img/viewing-search-results-and-edit/Text_Send_1MsgComplete.png)
 ## More
 Now that you've learned how to send a text, learn how to receive replies to your texts and see a history of all past texts in these articles:
 - [Receiving replies to your texts](https://help.broadstripes.com/help-articles/using-broadstripes/working-with-search-results/text-messaging/)

@@ -9,7 +9,7 @@ What you might _not_ know is that the search results page contains another power
 Here's a look at all of the actions you can apply:
 ![](/img/viewing-search-results-and-edit/BulkActionsMenuComplete2025.png)
 Follow the links below to learn to apply each of these actions.
-- [Send email](../viewing-search-results-and-edit/send-email.md) (send a bulk email to multiple contacts)
+- [Send email](../viewing-search-results-and-edit/bulk-actions/bulk-actions-send-email.md) (send a bulk email to multiple contacts)
 - [Send text](../viewing-search-results-and-edit/send-sms-text-message.md) (send an SMS text message to multiple contacts)
 - [Email messaging permissions](../viewing-search-results-and-edit/text-messaging-opted-in-permissions.md) (Opt in multiple workers at once to receive Broadstripes emails)
 - [Text messaging permissions](../viewing-search-results-and-edit/text-messaging-opted-in-permissions.md) (Opt in multiple workers at once to receive Broadstripes SMS text messages)
