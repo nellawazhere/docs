@@ -91,7 +91,7 @@ const config = {
         },
       },
       navbar: {
-        title: 'Broadstripes Help Center',
+        title: 'Help Center',
         logo: {
           alt: 'Broadstripes Logo',
           src: 'img/broadstripeslogo_dark_system_blue500.svg',
