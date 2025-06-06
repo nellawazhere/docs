@@ -2,6 +2,7 @@
 id: index
 title: Getting Started with Broadstripes
 sidebar_position: 1
+slug: /
 ---
 
 import DocCardList from '@theme/DocCardList';

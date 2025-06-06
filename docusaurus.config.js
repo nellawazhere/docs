@@ -58,13 +58,15 @@ const config = {
     require.resolve('./src/clientModules.js'),
   ],
 
-
+  
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/', // Serve the docs at the site's root
+          /* other docs plugin options */
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/broadstripes/help-center/tree/main/',
           exclude: ['**/drafts/**'],
@@ -128,3 +130,4 @@ const config = {
 };
 
 export default config;
+
