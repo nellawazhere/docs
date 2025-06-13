@@ -11,7 +11,7 @@ In this article, we're going to show you how to do a search based on an event we
 
 ## Build a search to capture events in time
 
-In another article, we [built a search to look at people who had not yet signed cards](/search/search-by-event-step.md/). For this article, we're going to assume it's a week later, and we want to see how many new cards have been signed since we ran that previous search. Here's how:
+In another article, we [built a search to look at people who had not yet signed cards](/search/search-by-event-step/). For this article, we're going to assume it's a week later, and we want to see how many new cards have been signed since we ran that previous search. Here's how:
 1. Start a new search by clicking the **Search builder button** to the right of the search box at the top of the page.![Search builder button](/img/search/SearchSearchBuilderButton2021-e1610573892873.png)
 2. A **search building panel** opens below the search box.
 3. Since we want to limit our search to workers who have signed a card in the last week, we'll choose the **Card - Signed** event step from the left-hand drop-down menu in the search builder.

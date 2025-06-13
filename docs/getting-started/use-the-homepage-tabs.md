@@ -171,9 +171,9 @@ You’ll also see the name of the Broadstripes user who edited the record and th
 
 ![Recent Changes tab](/img/getting-started/basic-recent-changes-tab-view.png)
 
-Project admins and basic users (if enabled) have an advanced view of the recent changes tab. The [change history viewer](admin-guides/utilizing-change-viewer) will provide an interactive filterable view of changes in your project as far back as the project creation.
+Project admins and basic users (if enabled) have an advanced view of the recent changes tab. The change history viewer will provide an interactive filterable view of changes in your project as far back as the project creation.
 
-[Change history viewer](img/admin-guides/recent-changes-change-viewer.png)
+![Change history viewer](/img/getting-started/basic-recent-changes-tab-view.png)
 
 ### Switching to the older format
 

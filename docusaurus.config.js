@@ -6,6 +6,7 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Broadstripes Help Center',
@@ -52,13 +53,31 @@ const config = {
         },
       };
     },
+  // Local 
+  //  plugin for all environments
+  [
+    require.resolve("@easyops-cn/docusaurus-search-local"),
+    {
+      hashed: true,
+      language: ["en"],
+      indexDocs: true,
+      indexBlog: false,
+      indexPages: false,
+      docsRouteBasePath: "/",
+      highlightSearchTermsOnTargetPage: true,
+      searchResultLimits: 8,
+      searchResultContextMaxLength: 50,
+      explicitSearchResultPath: false,
+      removeDefaultStopWordFilter: false,
+      removeDefaultStemmer: false,
+    },
   ],
+],
 
   clientModules: [
     require.resolve('./src/clientModules.js'),
   ],
 
-  
   presets: [
     [
       'classic',
@@ -66,13 +85,13 @@ const config = {
       ({
         docs: {
           routeBasePath: '/', // Serve the docs at the site's root
-          /* other docs plugin options */
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/broadstripes/help-center/tree/main/',
           exclude: ['**/drafts/**'],
           showLastUpdateTime: true,
           showLastUpdateAuthor: false,
         },
+        // Remove the docs plugin shorthand if you use a custom docs plugin ID
         theme: {
           customCss: [
             './src/css/custom.css',
@@ -115,7 +134,7 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/getting-started/register-your-account',
+                to: '/getting-started/register-your-account',
               },
             ],
           },
@@ -126,8 +145,21 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+
+      // Algolia search configuration (disabled - using local search for now)
+      // To enable Algolia in the future, uncomment the following:
+      /*
+      algolia: {
+        appId: 'VS5HA1BXO2', 
+        apiKey: 'cf58897d0b849997ccacb5ffcbbdc625',
+        indexName: 'broadstripes-docs', 
+        contextualSearch: true, 
+        searchPagePath: false, // Set to false to disable a full-size search page or 'directory_name' to enable it
+        externalUrlRegex: 'external\\.com|domain\\.com', 
+        insights: false, 
+      },
+      */
     }),
 };
 
 export default config;
-

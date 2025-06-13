@@ -1,0 +1,23 @@
+---
+id: search-results
+title: Search Results
+---
+
+import React from 'react';
+import { useLocation } from '@docusaurus/router';
+
+<div>
+  {(() => {
+    const location = useLocation();
+    const queryParams = new URLSearchParams(location.search);
+    const searchQuery = queryParams.get('q');
+
+    return (
+      <>
+        <h1>Search Results</h1>
+        <p>Showing results for: <strong>{searchQuery}</strong></p>
+        {/* Add logic to display search results */}
+      </>
+    );
+  })()}
+</div>
