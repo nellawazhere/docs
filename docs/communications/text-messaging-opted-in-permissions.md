@@ -1,21 +1,7 @@
 ---
 title: "Text messaging permissions - opt in a cell phone (+video)"
-date: "2019-11-06"
-categories: 
-  - "messaging"
-  - "working-with-contact-records"
-tags: 
-  - "cell"
-  - "email"
-  - "mobile"
-  - "opt-in"
-  - "opt-out"
-  - "opted"
-  - "permissions"
-  - "sms"
-  - "text"
-  - "text-messaging"
-  - "using-broadstripes"
+sidebar_label: Text messaging permissions - opt in a cell phone
+sidebar_position: 5
 ---
 
 
@@ -29,22 +15,19 @@ Learn all about **opting in** a cell phone and other aspects of Broadstripes tex
 
 [![](images/Messaging_thumb_320x200-1.png)](https://vimeo.com/370396179)
 
-### Set up messaging and send a text blast
 
+### Opt in cell phone numbers for text messaging
 
-
-## Opt in cell phone numbers for text messaging
-
-This article only covers one step in the process of sending text messages with Broadstripes – how to mark workers' cell phone numbers as **"Opted in."** Check out the full [Text messaging article](https://help.broadstripes.com/help-articles/using-broadstripes/working-with-search-results/text-messaging/) if you'd like to learn more about how to send SMS text messages using Broadstripes.
+This article only covers one step in the process of sending text messages with Broadstripes – how to mark workers' cell phone numbers as **"Opted in."** Check out the full [Text messaging article](https://help.broadstripes.com/help-articles/using-broadstripes/working-with-search-results/text-messaging/) if you'd like to learn more about how to send SMS text messages using Broadstripes.
 
 ### Opt in a single worker's cell phone
 
-1. From the **Search Results** page, hover over the   **looking glass icon** next to the worker's name.![](images/Text_Send_1Msg.png)
-2. Click in the Contact area to edit her phone information.![](images/OptinContactArea.png)
+1. From the **Search Results** page, hover over the **info icon** next to the worker's name.![Hover by name for info icon](/img/communications/info-icon-hover.png)
+2. Click in the Contact area to edit her phone information.![Optin Contact Area](/img/communications/optin-contact-area.png)
 3. Click the **+Add phone/email button** to add a new phone number, or just begin typing to update an existing number.
 4. Select **"Cell Phone"** as the phone type.![](images/OptinContactCell.png)
 5. Choose the appropriate opted in reason under the **"Opted In"** drop-down menu.![](images/OptinContactReason.png)
-6. Scroll down and click **Save**.  
+6. Scroll down and click **Save**.  
     ![](images/OptinContactSave.png)
 7. The worker has now been opted in to receive SMS text messages using Broadstripes. Check out the full [Text messaging article](https://help.broadstripes.com/help-articles/using-broadstripes/working-with-search-results/text-messaging/) if you'd like to learn about how to send SMS text messages.
 
@@ -55,6 +38,4 @@ This article only covers one step in the process of sending text messages with B
 3. Under **Actions**, choose “**Text Messaging Permissions.**”![](images/OptinContactAction.png)
 4. Choose an opted in reason from the **"Opted In" drop-down** menu.![](images/OptinContactActionReason.png)
 5. Click **Update** to save.
-6. All of the selected workers have now been opted in to receive SMS text messages from Broadstripes. Check out the full [Text messaging article](https://help.broadstripes.com/help-articles/using-broadstripes/working-with-search-results/text-messaging/) if you'd like to learn about how to send SMS text messages.
-
-\[/et\_pb\_text\]\[/et\_pb\_column\]\[/et\_pb\_row\]\[/et\_pb\_section\]
+6. All of the selected workers have now been opted in to receive SMS text messages from Broadstripes. Check out the full [Text messaging article](https://help.broadstripes.com/help-articles/using-broadstripes/working-with-search-results/text-messaging/) if you'd like to learn about how to send SMS text messages.

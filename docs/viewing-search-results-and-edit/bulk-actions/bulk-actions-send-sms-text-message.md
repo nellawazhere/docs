@@ -26,7 +26,7 @@ If you're not sure how to add a new cell phone number or update an existing numb
 In this example, we'll send a text message to every opted in worker at Basic Hotel asking them to try to build support in their respective departments. Here's how:
 1. First, we'll run a search for people who work at **Basic Hotel**. (If you need help running a search, check out the [Search section](../search/index.md).)
 2. From the **Search Results** page, we'll [select all the workers](../selecting-deselecting-contacts/index.md). At the time this article was written, you were allowed to send up to 10,000 messages at once. Check with your admin to find out if that’s changed.![](/img/viewing-search-results-and-edit/Text_Send_Select_Workers.png)
-3. Under **Actions**, we’ll choose “**Text.**”![](/img/viewing-search-results-and-edit/Text_Send_Actions.png)
+3. Under the **Communications** drop-down menu, we’ll choose “**Send text.**”![](/img/viewing-search-results-and-edit/Text_Send_Actions.png)
 4. Next, **compose a short text message** (160-characters or fewer is considered a standard SMS message).
 5. Broadstripes makes it easy to personalize the message with dynamic [merge fields](../communications/using-merge-fields.md) like "**First Name**" or "**Department**." To use a merge field, just choose it from the **drop-down menu** and it will be inserted into the body of your text message.![](/img/viewing-search-results-and-edit/Text_Send_Dynamic_Merge.png)
 6. Below the message, you'll see the **virtual phone** number you're sending from. If you have more than one number assigned to you, you can choose which to use from the **drop-down menu**.![](/img/viewing-search-results-and-edit/Text_Send_VirtPhone.png)

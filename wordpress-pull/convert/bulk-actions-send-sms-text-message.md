@@ -1,11 +1,10 @@
 ---
-title: "Actions - Text (send bulk SMS messages)"
+title: "Communications - Text (send bulk SMS messages)"
 date: "2021-01-14"
 categories: 
   - "working-with-search-results"
 ---
 
-\[et\_pb\_section fb\_built="1" \_builder\_version="3.22"\]\[et\_pb\_row \_builder\_version="3.25" background\_size="initial" background\_position="top\_left" background\_repeat="repeat"\]\[et\_pb\_column type="4\_4" \_builder\_version="3.25" custom\_padding="|||" custom\_padding\_\_hover="|||"\]\[et\_pb\_text \_builder\_version="4.4.8"\]
 
 # Action: Text
 
