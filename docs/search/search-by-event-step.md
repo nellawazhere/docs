@@ -16,7 +16,7 @@ Keep in mind that **events** are created and customized by users and admins, so 
 
 For this example, we're going to show you how to do a search for anyone who has showed support for our campaign, but hasn't actually signed a card yet.
 1. Start your search by clicking the **Search builder button** to the right of the search box at the top of the page.![](/img/search/SearchSearchBuilderButton2021-e1610573892873.png)
-2. A **search building panel** will open below the search box.![](/img/search/b9045ce-BuildSaveSearchDefault.png)
+2. A **search building panel** will open below the search box.![](/img/search/2fb6ebd-BuildSaveSearchDefault.png)
 3. Initially, the panel will offer to search for people by **Name**, but you can easily change that to search by a whether or not their card has been signed, their assessment, or any other criteria.
 4. Since we want to limit our search to workers who haven't yet signed a card, we'll set that up first. We'll do the search based on an event in our project called "**Card**" to find all the people who have a certain status for the event step "**Signed**." From the left-hand drop-down menu in the search builder, we'll choose the **Card - Signed** step under the **Events** section of the menu.![](/img/search/3555eb1-BuildSaveSearchCardSigned.png)
 5. Next, from the middle drop-down list, we'll choose "**is not checked**," since we only want to see those workers who have _not_ signed a card.

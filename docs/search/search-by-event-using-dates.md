@@ -12,9 +12,9 @@ In this article, we're going to show you how to do a search based on an event we
 ## Build a search to capture events in time
 
 In another article, we [built a search to look at people who had not yet signed cards](/search/search-by-event-step/). For this article, we're going to assume it's a week later, and we want to see how many new cards have been signed since we ran that previous search. Here's how:
-1. Start a new search by clicking the **Search builder button** to the right of the search box at the top of the page.![Search builder button](/img/search/SearchSearchBuilderButton2021-e1610573892873.png)
-2. A **search building panel** opens below the search box.
-3. Since we want to limit our search to workers who have signed a card in the last week, we'll choose the **Card - Signed** event step from the left-hand drop-down menu in the search builder.
+1. Start a new search by clicking the **Search builder** to the right of the search box at the top of the page.![Search builder button](/img/search/SearchSearchBuilderButton2021-e1610573892873.png)
+2. A **search building panel** opens below the search box.
+3. Since we want to limit our search to workers who have signed a card in the last week, we'll choose the **Card - Signed** event step from the left-hand drop-down menu in the search builder.
 4. In the middle drop-down box, select "**was checked on or after**."
 5. In the right-hand text box type “last week.” Note that Broadstripes search accepts natural language search terms like “last week” or “a year ago,” or you can use a calendar date like “2/20/2017.”
 <figure>
@@ -22,7 +22,7 @@ In another article, we [built a search to look at people who had not yet signed 
 <figcaption>The search “Card – Signed was checked on or after last week” will show any worker who signed their card some time in the last week.</figcaption>
 </figure>
 
-6. Click the **Search** button to run the search. All the workers who have signed cards in the last week will display in the **Search results panel**.
+6. Click the **Search** button to run the search. All the workers who have signed cards in the last week will display in the **Search results panel**.
 7. To see a count of the **total number of contacts** in the search results at a glance, check the upper right-hand corner of the search results panel.
 <figure >
 ![Search results count](/img/search/165d661-namesearchresultshowing.png)

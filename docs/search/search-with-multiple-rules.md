@@ -12,13 +12,13 @@ The two rules in this search might be stated this way:
 >
 > have a leadership role **AND** work at Big Shop
 ## Build a multiple-rules search
-1. To get started, click the **Search builder** button to the right of the search box at the top of the page.![](/img/search/SearchSearchBuilderButton2021-e1610573892873.png)
-2. A **search builder** panel will appear below the search box.![](/img/search/2fb6ebd-BuildSaveSearchDefault.png)
-3. Initially, the panel will offer to search for people by **Name**, but you can easily change that to search by leadership role, our first rule.
-4. To search for leaders, select "**Leadership role**" from the drop-down list on the left. That choice can be found under the **Leadership** section of the drop-down list, but you can bring the choice up even quicker by typing "**leadership**" into the **Filter box** (as shown below).![](/img/search/8450f77-SearchMultRuleLeaderhip.png)
-5. In the **middle drop-down box**, we'll choose "**has any value**" to see everyone with a leadership role. (If we wanted to select just people in a specific role, we could choose "**contains the word(s)**" as our operator and then choose the role from the pull-down list that would appear to the right.)![](/img/search/a3309fe-SearchMultRuleLeaderhipAnyVal.png)
+1. To get started, click the **Search builder** button to the right of the search box at the top of the page.![](/img/getting-started/Search-builder-button.png)
+2. A **search builder** panel will appear below the search box.![](/img/search/2fb6ebd-BuildSaveSearchDefault.png)
+3. Initially, the panel will offer to search for people by **Name**, but you can easily change that to search by leadership role, our first rule.
+4. To search for leaders, select "**Leadership role**" from the drop-down list on the left. That choice can be found under the **Leadership** section of the drop-down list, but you can bring the choice up even quicker by typing "**leadership**" into the **Filter box** (as shown below).![](/img/search/8450f77-SearchMultRuleLeaderhip.png)
+5. In the **middle drop-down box**, we'll choose "**has any value**" to see everyone with a leadership role. (If we wanted to select just people in a specific role, we could choose "**contains the word(s)**" as our operator and then choose the role from the pull-down list that would appear to the right.)![](/img/search/a3309fe-SearchMultRuleLeaderhipAnyVal.png)
 6. Next, we need to add our second rule, filtering the results to show only leaders at "**Big Shop**."
-7. We'll add our second rule by clicking the **+Add rule** button in the upper right corner of the search builder.![](/img/search/915a0ab-SearchMultRuleAddRule1.png)
+7. We'll add our second rule by clicking the **+Add rule** button in the upper right corner of the search builder.![](/img/search/915a0ab-SearchMultRuleAddRule1.png)
 8. Next, we'll specify that for this rule **Employer (in or below)** should contain the words "**Big Shop**."
 9. Before running the search, we need to check our boolean operator "**AND**". Since our search depends on _both_ of our rules being true to find people with a leadership role who are employed at Big Shop, we want to confirm we're using the "**AND**" operator in our search.
 #### What's a Boolean operator?

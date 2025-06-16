@@ -29,7 +29,7 @@ Learn how to build a search with a group in this video:
 
 ### Search with rule groups
 ## Build a search with groups (clauses)
-1. To get started, click the **Advanced** button to the right of the search box at the top of the page.![](/img/search/SearchSearchBuilderButton2021-e1610573892873.png)
+1. To get started, click the **Search builder** button to the right of the search box at the top of the page.![](/img/search/SearchSearchBuilderButton2021-e1610573892873.png)
 2. A **search builder** panel will appear below the search box.![Search Builder button](/img/search/3aa6b9b-SearchWrkAdvBuilder.jpg)
 3. We'll start by creating our three rules first and construct the group last.
 4. The search builder panel automatically creates a rule as it's opened. Initially, the panel will offer to search for people by **Name**, but we'll change that for our first rule.
