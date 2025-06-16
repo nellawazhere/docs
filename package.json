@@ -11,7 +11,8 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "deploy-gh": "GIT_USER=honella.davis@broadstripes.com npm run deploy"
   },
   "dependencies": {
     "@docusaurus/core": "3.7.0",
@@ -36,6 +37,7 @@
     "@docusaurus/types": "3.7.0",
     "@tailwindcss/typography": "^0.5.16",
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "os-browserify": "^0.3.0",
     "path-browserify": "^1.0.1",
     "postcss": "^8.5.3",

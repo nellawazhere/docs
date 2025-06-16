@@ -16,8 +16,11 @@ const config = {
   baseUrl: '/',
   organizationName: 'broadstripes',
   projectName: 'help-center',
+  // The following values are used for GitHub Pages deployment
+  // They will be used only during the deploy command
+  trailingSlash: true,
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {

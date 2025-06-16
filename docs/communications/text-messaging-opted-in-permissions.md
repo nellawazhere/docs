@@ -26,7 +26,7 @@ Learn all about **opting in** a cell phone and other aspects of Broadstripes tex
 
 ### Opt in cell phone numbers for text messaging
 
-This article only covers one step in the process of sending text messages with Broadstripes – how to mark workers' cell phone numbers as **"Opted in."** Check out the full [Text messaging article](https://help.broadstripes.com/help-articles/using-broadstripes/working-with-search-results/text-messaging/) if you'd like to learn more about how to send SMS text messages using Broadstripes.
+This article only covers one step in the process of sending text messages with Broadstripes – how to mark workers' cell phone numbers as **"Opted in."** Check out the full [Text messaging article](/communications/bulk-actions-send-sms-text-message/) if you'd like to learn more about how to send SMS text messages using Broadstripes.
 
 ### Opt in a single worker's cell phone
 
@@ -37,13 +37,13 @@ This article only covers one step in the process of sending text messages with B
 5. Choose the appropriate opted in reason under the **"Opted In"** drop-down menu.![](/img/communications/choose-sms-messaging-permission.png)
 6. Scroll down and click **Save**.  
     ![](/img/communications/OptinContactSave.png)
-7. The worker has now been opted in to receive SMS text messages using Broadstripes. Check out the full [Text messaging article](https://help.broadstripes.com/help-articles/using-broadstripes/working-with-search-results/text-messaging/) if you'd like to learn about how to send SMS text messages.
+7. The worker has now been opted in to receive SMS text messages using Broadstripes. Check out the full [Text messaging article](/communications/bulk-actions-send-sms-text-message/) if you'd like to learn about how to send SMS text messages.
 
 ### Opt in multiple workers' cell phones at one time with a Bulk Action
 
-1. Open a [tag list](https://help.broadstripes.com/help-articles/admin-tools/data-tools-admin/tag-lists/) or run a search to find all of the workers you want opted in. (If you need help running a search, check out the [Create and save a search](https://help.broadstripes.com/help-articles/using-broadstripes/customize/create-and-save-a-search/) article.)
-2. [Select the workers](/help-articles/using-broadstripes/working-with-search-results/selecting-deselecting-contacts/#ftoc-heading-2) you want to mark "Opted In." For this example we'll select all 95 workers in our search results. ![](/img/communications/select-all-sms-opt-in.png)
+1. Open a tag list or run a search to find all of the workers you want opted in. (If you need help running a search, check out the [Search documentation](/search/) articles.)
+2. [Select the workers](/viewing-search-results-and-edit/selecting-deselecting-contacts/) you want to mark "Opted In." For this example we'll select all 95 workers in our search results. ![](/img/communications/select-all-sms-opt-in.png)
 3. Under **Actions**, choose “**Text Messaging Permissions.**” ![](/img/communications/OptinContactAction.png)
 4. Choose an opted in reason from the **"Opted In"** drop-down menu.![](/img/communications/sms-permissions-panel-choose-reason.png)
 5. Click **Update** to save.
-6. All of the selected workers have now been opted in to receive SMS text messages from Broadstripes. Check out the full [Text messaging article](https://help.broadstripes.com/help-articles/using-broadstripes/working-with-search-results/text-messaging/) if you'd like to learn about how to send SMS text messages.
+6. All of the selected workers have now been opted in to receive SMS text messages from Broadstripes. Check out the full [Text messaging article](/communications/bulk-actions-send-sms-text-message/) if you'd like to learn about how to send SMS text messages.
