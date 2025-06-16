@@ -12,12 +12,16 @@ const config = {
   title: 'Broadstripes Help Center',
   tagline: 'Learn how to use Broadstripes',
   favicon: 'img/favicon.ico',
-  url: 'https://help.broadstripes.com',
-  baseUrl: '/',
+  // The URL will be different for local vs GitHub Pages
+  url: process.env.NODE_ENV === 'development' 
+    ? 'http://localhost:3000' 
+    : 'https://broadstripes.github.io',
+  // The baseUrl will be different for local vs GitHub Pages
+  baseUrl: process.env.NODE_ENV === 'development' 
+    ? '/' 
+    : '/broadstripes-docs/',
   organizationName: 'broadstripes',
-  projectName: 'help-center',
-  // The following values are used for GitHub Pages deployment
-  // They will be used only during the deploy command
+  projectName: 'broadstripes-docs',
   trailingSlash: true,
 
   onBrokenLinks: 'warn',
