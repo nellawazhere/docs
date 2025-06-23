@@ -48,5 +48,11 @@ import DocCardList from '@theme/DocCardList';
     href: '../viewing-search-results-and-edit/bulk-actions/bulk-actions-assign-leader-remove-leader',
     label: 'Bulk actions - Assign to leader/Remove leader',
     description: 'Bulk actions - Assign to leader/Remove leader'
+  },
+  {
+    type: 'link',
+    href: '../viewing-search-results-and-edit/bulk-actions/bulk-actions-set-update-custom-field',
+    label: 'Bulk actions - Set/update custom field',
+    description: 'Bulk actions - Set/update custom field'
   }
 ]} />
