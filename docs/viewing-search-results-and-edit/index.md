@@ -42,5 +42,11 @@ import DocCardList from '@theme/DocCardList';
     href: '../viewing-search-results-and-edit/bulk-actions/bulk-actions-assign-event-steps',
     label: 'Bulk actions - Assign event steps',
     description: 'Bulk actions - Assign event steps'
+  },
+  {
+    type: 'link',
+    href: '../viewing-search-results-and-edit/bulk-actions/bulk-actions-assign-leader-remove-leader',
+    label: 'Bulk actions - Assign to leader/Remove leader',
+    description: 'Bulk actions - Assign to leader/Remove leader'
   }
 ]} />
