@@ -30,28 +30,25 @@ def extract_frontmatter(content):
     return {}, content
 
 def clean_wordpress_markup(content):
-    # First remove all content between outermost et_pb_section tags
-    cleaned_content = re.sub(
-        r'\[et_pb_section[^\]]*?\].*?\[/et_pb_section\]',
-        '',
-        content,
-        flags=re.DOTALL | re.IGNORECASE | re.MULTILINE
-    )
-    
-    # If no sections found (or content wasn't in sections), try removing individual tags
+    # Remove individual WordPress/Divi shortcode tags (but preserve content between them)
     divi_patterns = [
-        # Handle both fb_built and bb_built variations
-        r'\[et_pb_section[^\]]*?(?:fb_built|bb_built)[^\]]*?\].*?\[/et_pb_section\]',
-        r'\[et_pb_row[^\]]*?\].*?\[/et_pb_row\]',
-        r'\[et_pb_column[^\]]*?\].*?\[/et_pb_column\]',
-        r'\[et_pb_text[^\]]*?\].*?\[/et_pb_text\]',
-        # Individual opening and closing tags
-        r'\[et_pb_\w+[^\]]*?\]',
-        r'\[/et_pb_\w+\]',
-        # Any remaining shortcode-style tags
-        r'\[[^\]]*?(?:background_position|background_repeat|background_size|_builder_version|background_layout)[^\]]*?\]'
+        # Individual opening and closing tags (with escaped brackets and underscores)
+        r'\\?\[et\\?_pb\\?_section[^\]]*?\\?\]',
+        r'\\?\[/et\\?_pb\\?_section\\?\]',
+        r'\\?\[et\\?_pb\\?_row[^\]]*?\\?\]',
+        r'\\?\[/et\\?_pb\\?_row\\?\]',
+        r'\\?\[et\\?_pb\\?_column[^\]]*?\\?\]',
+        r'\\?\[/et\\?_pb\\?_column\\?\]',
+        r'\\?\[et\\?_pb\\?_text[^\]]*?\\?\]',
+        r'\\?\[/et\\?_pb\\?_text\\?\]',
+        # Any other et_pb_ tags
+        r'\\?\[et\\?_pb\\?_\w+[^\]]*?\\?\]',
+        r'\\?\[/et\\?_pb\\?_\w+\\?\]',
+        # Any remaining shortcode-style tags with WordPress attributes
+        r'\\?\[[^\]]*?(?:background\\?_position|background\\?_repeat|background\\?_size|\\?_builder\\?_version|background\\?_layout)[^\]]*?\\?\]'
     ]
     
+    cleaned_content = content
     for pattern in divi_patterns:
         cleaned_content = re.sub(
             pattern,
@@ -60,8 +57,8 @@ def clean_wordpress_markup(content):
             flags=re.DOTALL | re.IGNORECASE | re.MULTILINE
         )
     
-    # Remove WordPress caption tags
-    caption_pattern = r'\[caption[^\]]*?\](.*?)\[/caption\]'
+    # Remove WordPress caption tags (handle escaped brackets)
+    caption_pattern = r'\\?\[caption[^\]]*?\\?\](.*?)\\?\[/caption\\?\]'
     def replace_caption(match):
         return match.group(1).strip()
     cleaned_content = re.sub(caption_pattern, replace_caption, cleaned_content)
@@ -70,11 +67,41 @@ def clean_wordpress_markup(content):
     cleaned_content = re.sub(r'\n\s*\n\s*\n', '\n\n', cleaned_content)
     cleaned_content = '\n'.join(line.rstrip() for line in cleaned_content.splitlines())
     
-    # Remove any lines that are just whitespace or empty brackets
+    # Remove lines that are WordPress shortcode remnants (but preserve legitimate markdown)
     cleaned_lines = []
     for line in cleaned_content.splitlines():
         stripped = line.strip()
-        if stripped and not stripped.startswith('[') and not stripped.endswith(']'):
+        # Skip empty lines or whitespace-only lines
+        if not stripped:
+            cleaned_lines.append(line)
+            continue
+            
+        # Only remove lines that are clearly WordPress shortcode remnants
+        # These typically contain specific WordPress/Divi attributes
+        wordpress_indicators = [
+            'background_position', 'background\\?_position', 'background\\_position',
+            'background_repeat', 'background\\?_repeat', 'background\\_repeat',
+            'background_size', 'background\\?_size', 'background\\_size',
+            '_builder_version', '\\?_builder\\?_version', '\\_builder\\_version',
+            'background_layout', 'background\\?_layout', 'background\\_layout',
+            'admin_label', 'admin\\?_label', 'admin\\_label',
+            'fb_built', 'fb\\?_built', 'fb\\_built',
+            'bb_built', 'bb\\?_built', 'bb\\_built',
+            'et_pb_', 'et\\?_pb\\?_', 'et\\_pb\\_',
+            'custom_padding', 'custom\\?_padding', 'custom\\_padding',
+            'custom_margin', 'custom\\?_margin', 'custom\\_margin',
+            'module_class', 'module\\?_class', 'module\\_class',
+            'module_id', 'module\\?_id', 'module\\_id'
+        ]
+        
+        # Check if line contains WordPress-specific patterns
+        is_wordpress_junk = False
+        if (stripped.startswith('[') and stripped.endswith(']')) or (stripped.startswith('\\[') and stripped.endswith('\\]')):
+            # Only remove if it contains WordPress-specific attributes
+            is_wordpress_junk = any(indicator in stripped for indicator in wordpress_indicators)
+        
+        # Keep the line unless it's identified as WordPress junk
+        if not is_wordpress_junk:
             cleaned_lines.append(line)
     
     # Join lines back together
@@ -106,7 +133,7 @@ def find_image(img_path, src_dir):
             return location
     return None
 
-def process_images(content, src_dir, img_dir, subdir):
+def process_images(content, src_dir, img_dir, subdir, img_path_prefix):
     """Process and move images, updating their references in the content"""
     # Find all image references in markdown, including those in figure tags
     img_pattern = r'!\[([^\]]*)\]\s*\(([^)]+)\)'
@@ -133,8 +160,8 @@ def process_images(content, src_dir, img_dir, subdir):
             shutil.copy2(src_img_path, dest_img_path)
             print(f"Copied image: {src_img_path} -> {dest_img_path}")
             
-            # Update the image reference in the content to use /img/getting-started prefix
-            new_img_path = f'/img/getting-started/{img_filename}'
+            # Update the image reference in the content to use configurable prefix
+            new_img_path = f'{img_path_prefix}/{img_filename}'
             
             # Handle different variations of the image path in the content
             variations = [
@@ -166,7 +193,7 @@ def process_images(content, src_dir, img_dir, subdir):
     
     return content
 
-def process_markdown_file(input_file, output_file, img_dir):
+def process_markdown_file(input_file, output_file, img_dir, img_path_prefix):
     src_dir = os.path.dirname(input_file)
     subdir = os.path.basename(os.path.dirname(output_file))
     
@@ -180,7 +207,7 @@ def process_markdown_file(input_file, output_file, img_dir):
     content = clean_wordpress_markup(content)
     
     # Process and copy images
-    content = process_images(content, src_dir, img_dir, subdir)
+    content = process_images(content, src_dir, img_dir, subdir, img_path_prefix)
     
     # Create output directory if it doesn't exist
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
@@ -199,6 +226,7 @@ def main():
     parser.add_argument('input_dir', help='Input directory containing markdown files')
     parser.add_argument('output_dir', help='Output directory for cleaned markdown files')
     parser.add_argument('img_dir', help='Directory for storing images')
+    parser.add_argument('--img-path-prefix', default='/img/getting-started', help='Prefix for image paths in markdown files')
     
     args = parser.parse_args()
     
@@ -217,7 +245,7 @@ def main():
                 output_path = os.path.join(args.output_dir, rel_path)
                 
                 print(f"Processing: {rel_path}")
-                process_markdown_file(input_path, output_path, args.img_dir)
+                process_markdown_file(input_path, output_path, args.img_dir, args.img_path_prefix)
 
 if __name__ == '__main__':
     main()
