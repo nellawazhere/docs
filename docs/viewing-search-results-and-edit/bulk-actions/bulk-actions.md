@@ -1,6 +1,7 @@
 ---
 title: Actions overview - make changes to contacts in bulk
 sidebar_label: Actions overview - make changes to contacts in bulk
+sidebar_position: 20
 ---
 
 # Intro
@@ -9,17 +10,13 @@ What you might _not_ know is that the search results page contains another power
 Here's a look at all of the actions you can apply:
 ![](/img/viewing-search-results-and-edit/BulkActionsMenuComplete2025.png)
 Follow the links below to learn to apply each of these actions.
-- [Send email](../viewing-search-results-and-edit/bulk-actions/bulk-actions-send-email.md) (send a bulk email to multiple contacts)
-- [Send text](../viewing-search-results-and-edit/send-sms-text-message.md) (send an SMS text message to multiple contacts)
-- [Email messaging permissions](../viewing-search-results-and-edit/text-messaging-opted-in-permissions.md) (Opt in multiple workers at once to receive Broadstripes emails)
-- [Text messaging permissions](../viewing-search-results-and-edit/text-messaging-opted-in-permissions.md) (Opt in multiple workers at once to receive Broadstripes SMS text messages)
+
 - [Set custom field](../viewing-search-results-and-edit/set-update-custom-field.md) (set or update the value of a custom field for multiple users at once)
 - [Check/uncheck event steps](../viewing-search-results-and-edit/assign-event-steps.md) (check or uncheck steps of an event for multiple contacts in bulk)
 - [Add to list](../viewing-search-results-and-edit/list.md) (add contacts to a tag list in bulk)
 - [Remove from list](../viewing-search-results-and-edit/list.md) (remove contacts from a tag list in bulk)
 - [Assign to leader](../viewing-search-results-and-edit/assign-leader-remove-leader.md) (assign a leader to multiple contacts in bulk)
 - [Remove leader](../viewing-search-results-and-edit/assign-leader-remove-leader.md) (remove a leadership information from contact records in bulk)
-- [Create call pool](../viewing-search-results-and-edit/create-call-pool.md) (create a call pool for multiple contacts in bulk)
 - [Create Employment](../viewing-search-results-and-edit/employment-department-job-title-create-change-terminate-delete.md)
 - [Change Department](../viewing-search-results-and-edit/employment-department-job-title-create-change-terminate-delete.md)
 - [Change Job Title](../viewing-search-results-and-edit/employment-department-job-title-create-change-terminate-delete.md)

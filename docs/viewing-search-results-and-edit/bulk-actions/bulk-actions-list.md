@@ -1,6 +1,7 @@
 ---
 title: Actions - Add to list/Remove from list
 sidebar_label: Actions - Add to list/Remove from list
+sidebar_position: 25
 ---
 
 # Action: Add to list/Remove from list

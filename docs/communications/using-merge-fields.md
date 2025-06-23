@@ -1,7 +1,7 @@
 ---
 title: Enabling and using merge fields in messaging
 sidebar_label: Using merge fields
-sidebar_position: 25
+sidebar_position: 40
 ---
 
 # What are merge fields?

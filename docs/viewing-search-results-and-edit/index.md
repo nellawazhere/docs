@@ -33,20 +33,14 @@ import DocCardList from '@theme/DocCardList';
   },
   {
     type: 'link',
-    href: '../viewing-search-results-and-edit/bulk-actions/bulk-actions-send-email',
-    label: 'Bulk actions - Send email',
-    description: 'Bulk actions - Send email'
-  },
-  {
-    type: 'link',
-    href: '../viewing-search-results-and-edit/bulk-actions/bulk-actions-send-sms-text-message',
-    label: 'Bulk actions - Send SMS/Text message',
-    description: 'Bulk actions - Send SMS/Text message'
-  },
-  {
-    type: 'link',
     href: '../viewing-search-results-and-edit/bulk-actions/bulk-actions-list',
     label: 'Bulk actions - Add to list/Remove from list',
     description: 'Bulk actions - Add to list/Remove from list'
+  },
+  {
+    type: 'link',
+    href: '../viewing-search-results-and-edit/bulk-actions/bulk-actions-assign-event-steps',
+    label: 'Bulk actions - Assign event steps',
+    description: 'Bulk actions - Assign event steps'
   }
 ]} />
