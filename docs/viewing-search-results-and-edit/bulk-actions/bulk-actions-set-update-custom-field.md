@@ -9,7 +9,7 @@ sidebar_position: 40
 ## Set (update) a custom field for multiple contacts
 If you are like other Broadstripes users, it's likely that you use at least one custom field to track information that's important to your campaign. If you want to set or update the value of a custom field for multiple users at once, you can use a bulk action to simplify that task. (If you are new to custom fields, you can read more about them in the [Data tools overview](https://help.broadstripes.com/help-articles/admin-tools/data-tools-admin/data-tools-overview/).)
 
-:::info Text input exception
+:::note Text input exception
 Before you get started, note that not _all_ types of custom fields can be updated in bulk. For instance, custom fields that allow you to write free-form text (like **single-line** and **multiple-line text input boxes**) cannot be updated in bulk. **Check boxes**, **radio buttons**, and **drop-down** or **multiple-selection choosers**, however, can all be updated using this time-saving method.
 :::
 
@@ -36,6 +36,6 @@ If your custom field is a drop-down chooser, simply select the **blank value**�
 ### Checkboxes
 If your custom field is a **single checkbox** and you'd like to clear the value, simply leave the checkbox unchecked and then click **Update**. This will leave the box unchecked for all selected contacts.
 ![](/img/viewing-search-results-and-edit/ef9ac52-ActionCustomClearCheckBlank.png)
-If your custom field contains **multiple checkboxes**, first check the value(s) you want to clear and then click **Remove selected options**. For instance, as shown below, checking the value **"Labor"** and then clicking **Remove selected options** will clear "Labor" from all selected contact records but leave all other checked boxes untouched.
+If your custom field contains **multiple checkboxes** (multiselect), first check the value(s) you want to clear and then click **Remove selected options**. For instance, as shown below, checking the value **"Labor"** and then clicking **Remove selected options** will clear "Labor" from all selected contact records but leave all other checked boxes untouched.
 ![](/img/viewing-search-results-and-edit/6cab9d5-ActionCustomClearSelected.png)
 ![](/img/viewing-search-results-and-edit/15a2a23-ActionCustomClearSelectedRemove-1-1.png)

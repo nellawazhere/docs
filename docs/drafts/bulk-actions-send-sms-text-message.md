@@ -47,7 +47,8 @@ In this example, we'll send a text message to every opted in worker at Basic Hot
 
 You can also send a text to just one worker. You can use the method above (selecting only their name from the search results), or you can use a shortcut on their contact detail pop-up window:
 
-1. From the **Search Results** page, hover over the   **looking glass icon** next to the worker's name.![](/img/communications//Text_Send_1Msg.png)
+1. From the **Search Results** page, hover over the   **looking glass icon** next to the worker's name.
+![](/img/communications//Text_Send_1Msg.png)
 2. Click the **phone icon** shortcut at the bottom of the pop-up window.![](/img/communications//Text_Send_1MsgIcon.png)
 3. Compose a short message (160 characters or fewer) and hit **Send.![](/img/communications//Text_Send_1MsgComplete.png)**
 

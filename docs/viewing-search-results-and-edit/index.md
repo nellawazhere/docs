@@ -1,6 +1,6 @@
 ---
 id: index
-title: Viewing search results and editing contacts in bulk (actions)
+title: View and edit search results (Actions)
 sidebar_position: 3
 ---
 
@@ -54,5 +54,11 @@ import DocCardList from '@theme/DocCardList';
     href: '../viewing-search-results-and-edit/bulk-actions/bulk-actions-set-update-custom-field',
     label: 'Bulk actions - Set/update custom field',
     description: 'Bulk actions - Set/update custom field'
+  },
+  {
+    type: 'link',
+    href: '../viewing-search-results-and-edit/bulk-actions/bulk-actions-employment-department-job-title-create-change-terminate-delete',
+    label: 'INCOMP Bulk actions - Employment/Department/Job title',
+    description: 'Bulk actions - Employment/Department/Job title'
   }
 ]} />
