@@ -12,7 +12,7 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "deploy-gh": "GIT_USER=nellawazhere npm run deploy"
+    "deploy-gh": "USE_SSH=true npm run deploy"
   },
   "dependencies": {
     "@docusaurus/core": "3.7.0",

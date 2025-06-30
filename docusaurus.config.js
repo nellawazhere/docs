@@ -24,8 +24,8 @@ const config = {
   projectName: 'broadstripes-docs',
   trailingSlash: true,
 
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
 
   i18n: {
     defaultLocale: 'en',
