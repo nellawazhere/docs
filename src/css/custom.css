@@ -24,7 +24,7 @@
   }
 
   article {
-    @apply text-xl leading-relaxed max-w-none;
+    @apply text-base max-w-full px-4 sm:max-w-3xl sm:px-6 md:max-w-2xl md:px-8 lg:max-w-xl;
   }
 
   h1 {
@@ -437,13 +437,13 @@ code {
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* Admonitions */
+/* Admonitions light theme*/
 div[class*="theme-admonition"] {
-  @apply rounded-lg p-4 mb-4 border-l-4;
+  @apply rounded-lg pt-6 pr-8 pb-6 pl-8 mb-4 border-l-4;
 }
 
 div[class*="theme-admonition-note"] {
-  @apply border-blue-400 bg-sky-100;
+  @apply border-blue-400 bg-sky-50;
 }
 
 div[class*="theme-admonition-tip"] {
@@ -463,13 +463,13 @@ div[class*="theme-admonition-danger"] {
 }
 
 div[class*="theme-admonition-heading"] {
-  @apply font-bold mb-0 text-gray-900 dark:text-gray-900;
+  @apply font-bold mb-8 text-gray-900 dark:text-gray-900;
 }
 
 div[class*="theme-admonition-content"] {
   @apply text-sm dark:text-gray-600;
 }
-
+/*Admonitions Dark theme*/
 [data-theme='dark'] div[class*="theme-admonition-note"] {
   @apply border-sky-400 bg-sky-900;
 }
