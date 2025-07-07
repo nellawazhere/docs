@@ -9,12 +9,20 @@ slug: /
 import DocCardList from '@theme/DocCardList';
 import LandingPageSearch from '../../src/components/LandingPageSearch';
 
-## Need help? You've come to the right place
-
-<LandingPageSearch />
+## New to Broadstripes? We're here to help!
 
 ### Getting started – Product tour video
-Are you new to Broadstripes? We're here to help!
+
+<div className="video-container" style={{position: 'relative', paddingBottom: '56.25%', height: 0, marginBottom: '.25rem'}}>
+  <iframe
+    src="https://player.vimeo.com/video/322304316?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    title="Getting Started with Broadstripes"
+    style={{position: 'absolute', top: '0', left: '0', width: '80%', height: '80%'}}
+    frameBorder="0"
+    allow="autoplay; fullscreen; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
 This video will walk you through some of the most common tasks for new users including:
 - Viewing your homepage
 - Searching for a worker or shop by name
@@ -26,16 +34,7 @@ This video will walk you through some of the most common tasks for new users inc
 - Using the Broadstripes Knowledge base
 If you need more help, you can search a topic here in the support center, or [contact us](https://help.broadstripes.com/contact-us/).
 
-<div className="video-container" style={{position: 'relative', paddingBottom: '56.25%', height: 0, marginBottom: '2rem'}}>
-  <iframe
-    src="https://player.vimeo.com/video/322304316?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-    title="Getting Started with Broadstripes"
-    style={{position: 'absolute', top: '0', left: '0', width: '80%', height: '80%'}}
-    frameBorder="0"
-    allow="autoplay; fullscreen; picture-in-picture"
-    allowFullScreen
-  ></iframe>
-</div>
+
 
 ### Getting Started articles
 Start learning the basics of Broadstripes. These guides will help you get up and running quickly.
