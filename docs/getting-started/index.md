@@ -8,7 +8,6 @@ slug: /
 
 import DocCardList from '@theme/DocCardList';
 import LandingPageSearch from '../../src/components/LandingPageSearch';
-<meta name="algolia-site-verification"  content="6B43D826BFA8F9A1" />
 ## New to Broadstripes? We're here to help!
 
 ### Getting started – Product tour video

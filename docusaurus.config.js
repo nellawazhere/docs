@@ -111,7 +111,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/BroadstripesHelpCenter-Logo.png',
       headTags: [
         {
           tagName: 'meta',
@@ -163,10 +163,7 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
 
-      // Algolia search configuration (enabled)
-      // To disable Algolia in the future, comment the following:
-
-      algolia: {
+     algolia: {
         appId: 'VS5HA1BXO2', 
         apiKey: 'cf58897d0b849997ccacb5ffcbbdc625',
         indexName: 'broadstripes-docs', 
