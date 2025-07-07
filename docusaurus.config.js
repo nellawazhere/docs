@@ -122,7 +122,8 @@ const config = {
         title: 'Help Center',
         logo: {
           alt: 'Broadstripes Logo',
-          src: 'img/broadstripeslogo_dark_system_blue500.svg',
+          src: 'img/broadstripeslogo.svg',
+          srcDark: 'img/broadstripeslogo_dark_system_blue500.svg',
         },
         items: [
           {
