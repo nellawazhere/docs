@@ -112,6 +112,15 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       image: 'img/docusaurus-social-card.jpg',
+      headTags: [
+        {
+          tagName: 'meta',
+          attributes: {
+            name: 'algolia-site-verification',
+            content: '6B43D826BFA8F9A1',
+          },
+        },
+      ],
       docs: {
         sidebar: {
           hideable: true,
@@ -154,9 +163,9 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
 
-      // Algolia search configuration (disabled - using local search for now)
-      // To enable Algolia in the future, uncomment the following:
-      /*
+      // Algolia search configuration (enabled)
+      // To disable Algolia in the future, comment the following:
+
       algolia: {
         appId: 'VS5HA1BXO2', 
         apiKey: 'cf58897d0b849997ccacb5ffcbbdc625',
@@ -166,7 +175,7 @@ const config = {
         externalUrlRegex: 'external\\.com|domain\\.com', 
         insights: false, 
       },
-      */
+
     }),
 };
 
