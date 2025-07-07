@@ -14,7 +14,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ### Development Server
 - Start local development server: `npm start`
 - This opens a browser window and provides live reloading for most changes
-- The site runs at localhost with auto-refresh capabilities
+- The site runs at localhost:3000 with auto-refresh capabilities
+- **Important**: For local development, always use `npm start`. Do not use `npm run build` or `npm run serve` for localhost:3000 development, as these commands use production configuration with a different baseUrl (`/broadstripes-docs/`) that will cause routing errors
 
 ### Build and Deployment
 - Build static site: `npm run build` (generates content into `build/` directory)
