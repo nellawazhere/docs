@@ -108,19 +108,20 @@ const config = {
     ],
   ],
 
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'algolia-site-verification',
+        content: '6B43D826BFA8F9A1',
+      },
+    },
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       image: 'img/BroadstripesHelpCenter-Logo.png',
-      headTags: [
-        {
-          tagName: 'meta',
-          attributes: {
-            name: 'algolia-site-verification',
-            content: '6B43D826BFA8F9A1',
-          },
-        },
-      ],
       docs: {
         sidebar: {
           hideable: true,
