@@ -29,17 +29,17 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run write-translations` - Generate translation files
 - `npm run write-heading-ids` - Add heading IDs to markdown files
 
-### Local Search
-The site uses @easyops-cn/docusaurus-search-local for all environments.
+### Search Configuration
+The site uses Algolia for search functionality. The local search plugin (@easyops-cn/docusaurus-search-local) has been removed as of July 2025.
 
-To test search functionality locally:
-1. Build the site first: `npm run build`
-2. Serve the built site: `npm run serve`
-3. Search will now work at http://localhost:3000
+**Algolia Configuration**:
+- Located in `docusaurus.config.js` under `themeConfig.algolia`
+- App ID: `VS5HA1BXO2`
+- Index Name: `broadstripes-docs`
+- The search box appears automatically in the navbar
+- Search works in both development (`npm start`) and production builds
 
-Note: Search doesn't work with `npm start` as it requires a built search index. Regular development can continue with `npm start` - only use build/serve when you need to test search.
-
-Algolia search configuration is preserved in comments for future use when a live environment is ready.
+Note: Algolia requires the site to be publicly accessible for indexing. The search may not show results until Algolia has crawled and indexed the site.
 
 ## Architecture Overview
 
@@ -82,16 +82,12 @@ Algolia search configuration is preserved in comments for future use when a live
 - Footer includes current year copyright
 - Dark/light theme support with custom logo variants
 
-### Search Configuration
-- **All Environments**: Uses @easyops-cn/docusaurus-search-local for offline search
-- **Future Algolia Integration**: Configuration is preserved in comments in docusaurus.config.js
+### Search Implementation
+- **Search Provider**: Algolia (as of July 2025)
+- **Configuration**: In `docusaurus.config.js` under `themeConfig.algolia`
   - appId: VS5HA1BXO2
   - indexName: broadstripes-docs
-- **Custom Landing Page Search**: 
-  - Component: `/src/components/LandingPageSearch/index.js`
-  - Styles: `/src/components/LandingPageSearch/styles.module.css`
-  - Redirects to `/?q=searchQuery` for local search
-  - Styled with CSS modules for consistent appearance
+- **Previous Setup**: The site previously used @easyops-cn/docusaurus-search-local plugin and had a custom LandingPageSearch component, both of which have been removed
 
 ### WordPress Migration
 - `wordpress-pull/` directory contains converted content from WordPress

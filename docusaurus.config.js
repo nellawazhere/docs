@@ -60,25 +60,7 @@ const config = {
         },
       };
     },
-  // Local 
-  //  plugin for all environments
-  [
-    require.resolve("@easyops-cn/docusaurus-search-local"),
-    {
-      hashed: true,
-      language: ["en"],
-      indexDocs: true,
-      indexBlog: false,
-      indexPages: false,
-      docsRouteBasePath: "/",
-      highlightSearchTermsOnTargetPage: true,
-      searchResultLimits: 8,
-      searchResultContextMaxLength: 50,
-      explicitSearchResultPath: false,
-      removeDefaultStopWordFilter: false,
-      removeDefaultStemmer: false,
-    },
-  ],
+  // Local search plugin removed - using Algolia instead
 ],
 
   clientModules: [
