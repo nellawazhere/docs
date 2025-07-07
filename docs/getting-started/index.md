@@ -8,6 +8,7 @@ slug: /
 
 import DocCardList from '@theme/DocCardList';
 import LandingPageSearch from '../../src/components/LandingPageSearch';
+
 ## New to Broadstripes? We're here to help!
 
 ### Getting started – Product tour video
