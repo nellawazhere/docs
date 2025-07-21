@@ -5,7 +5,6 @@ categories:
   - "working-with-search-results"
 ---
 
-
 # Action: Text
 
 * * *

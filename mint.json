@@ -1,0 +1,53 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Broadstripes Help Center",
+  "logo": {
+    "dark": "/img/broadstripeslogo_dark_system_blue500.svg",
+    "light": "/img/broadstripeslogo.svg"
+  },
+  "favicon": "/img/favicon.ico",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:support@broadstripes.com"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "docs/getting-started"
+      ]
+    },
+    {
+      "group": "Search",
+      "pages": [
+        "docs/search"
+      ]
+    },
+    {
+      "group": "Communications",
+      "pages": [
+        "docs/communications"
+      ]
+    },
+    {
+      "group": "Viewing & Editing Results",
+      "pages": [
+        "docs/viewing-search-results-and-edit"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "website": "https://help.broadstripes.com"
+  }
+}

@@ -73,30 +73,10 @@ Your admin-only guide to setting up a project,\\u00a0running data imports, and m
 
 \\r\[\\/et\_pb\_search\]\[\\/et\_pb\_column\]\[et\_pb\_column type=\\"1\_4\\" \_builder\_version=\\"4.16\\" custom\_padding=\\"|||\\" global\_colors\_info=\\"{}\\" custom\_padding\_\_hover=\\"|||\\"\]\[et\_pb\_button button\_url=\\"https:\\/\\/help.broadstripes.com\\/using-broadstripes\\/\\" button\_text=\\"Go to User Help Guides\\" button\_alignment=\\"right\\" admin\_label=\\"Using Broadstripes Button\\" \_builder\_version=\\"4.16\\" custom\_button=\\"on\\" button\_text\_size=\\"13px\\" button\_text\_color=\\"rgba(6,102,165,0.84)\\" button\_border\_color=\\"rgba(6,102,165,0.84)\\" button\_icon=\\"E||divi||400\\" button\_icon\_color=\\"rgba(6,102,165,0.84)\\" button\_on\_hover=\\"off\\" button\_text\_color\_hover=\\"rgba(6,102,165,0.97)\\" saved\_tabs=\\"all\\" global\_colors\_info=\\"{}\\" button\_text\_size\_\_hover\_enabled=\\"off\\" button\_one\_text\_size\_\_hover\_enabled=\\"off\\" button\_two\_text\_size\_\_hover\_enabled=\\"off\\" button\_text\_color\_\_hover\_enabled=\\"on\\" button\_text\_color\_\_hover=\\"rgba(6,102,165,0.97)\\" button\_one\_text\_color\_\_hover\_enabled=\\"off\\" button\_two\_text\_color\_\_hover\_enabled=\\"off\\" button\_border\_width\_\_hover\_enabled=\\"off\\" button\_one\_border\_width\_\_hover\_enabled=\\"off\\" button\_two\_border\_width\_\_hover\_enabled=\\"off\\" button\_border\_color\_\_hover\_enabled=\\"off\\" button\_one\_border\_color\_\_hover\_enabled=\\"off\\" button\_two\_border\_color\_\_hover\_enabled=\\"off\\" button\_border\_radius\_\_hover\_enabled=\\"off\\" button\_one\_border\_radius\_\_hover\_enabled=\\"off\\" button\_two\_border\_radius\_\_hover\_enabled=\\"off\\" button\_letter\_spacing\_\_hover\_enabled=\\"off\\" button\_one\_letter\_spacing\_\_hover\_enabled=\\"off\\" button\_two\_letter\_spacing\_\_hover\_enabled=\\"off\\" button\_bg\_color\_\_hover\_enabled=\\"off\\" button\_one\_bg\_color\_\_hover\_enabled=\\"off\\" button\_two\_bg\_color\_\_hover\_enabled=\\"off\\"\]\[\\/et\_pb\_button\]\[\\/et\_pb\_column\]\[\\/et\_pb\_row\]\[\\/et\_pb\_section\]","post\_meta":\[{"key":"\_et\_pb\_use\_builder","value":"on"},{"key":"\_et\_pb\_show\_page\_creation","value":"off"},{"key":"\_et\_pb\_built\_for\_post\_type","value":"page"},{"key":"\_et\_builder\_version","value":"VB|Divi|4.27.0"},{"key":"\_et\_pb\_old\_content","value":""},{"key":"\_et\_pb\_enable\_shortcode\_tracking","value":""},{"key":"\_et\_pb\_custom\_css","value":""},{"key":"\_et\_pb\_first\_image","value":""},{"key":"\_et\_pb\_truncate\_post","value":""},{"key":"\_et\_pb\_gutter\_width","value":"3"},{"key":"\_et\_pb\_truncate\_post\_date","value":""}\]}}
 
-
-
-
+**
 
 **
 
-
-
-
-
-
-
-
-
 **
-
-
-
-
-
-**
-
-
-
-
 
 **

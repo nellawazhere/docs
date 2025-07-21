@@ -18,20 +18,15 @@ tags:
   - "using-broadstripes"
 ---
 
-
-
 One of the most convenient features of Broadstripes messaging is that it allows you to send an SMS text to one or multiple workers at once. But first, each worker will need to provide a valid cell phone number and consent, or be "**Opted in**," to receive your text messages.
 
 Learn all about **opting in** a cell phone and other aspects of Broadstripes text messages in this video, or read on for step-by-step instructions:
 
 ## Video: Text messaging with Broadstripes (including Opt in instructions)
 
-
 [![](images/Messaging_thumb_320x200-1.png)](https://vimeo.com/370396179)
 
 ### Set up messaging and send a text blast
-
-
 
 ## Opt in cell phone numbers for text messaging
 
