@@ -1,38 +1,42 @@
 ---
-id: release-notes
 title: Release Notes
 description: Release notes for Broadstripes
-hide_table_of_contents: true
-slug: /release-notes
-className: full-width-page
 ---
+
+import ReactInteractiveTable from '/snippets/ReactInteractiveTable.jsx';
+
+<style global jsx>{`
+  article {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  article p {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #374151;
+  }
+
+  article h1, article h2, article h3, article h4, article h5, article h6 {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+  }
+
+  article a {
+    color: #1E40AF;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
+  }
+
+  article a:hover {
+    border-bottom-color: #1E40AF;
+  }
+
+  article code {
+    font-family: 'Fira Code', 'Courier New', Courier, monospace;
+  }
+`}</style>
 
 # Release Notes
 
-{/* The following div styling replaces "<ReleaseNotesTable data={releaseNotes}/>" 
-    And allows the Release Notes page to be full-width. Styling the width with a class and custom.css did not work */}
-<div style={{maxWidth: '100%', width: '100%', margin: 0, padding: 0}}>
-  <style>{`
-    .container {
-      max-width: 100% !important;
-    }
-    .docItemContainer_node_modules-\\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module {
-      max-width: 100% !important;
-    }
-    .docItemCol_node_modules-\\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module {
-      max-width: 100% !important;
-      padding: 0 1rem !important;
-    }
-    article {
-      max-width: 100% !important;
-      padding: 0 !important;
-    }
-    .theme-doc-markdown {
-      max-width: 100% !important;
-    }
-    .markdown > * {
-      max-width: 100% !important;
-    }
-  `}</style>
-  <ReleaseNotesTable data={releaseNotes} />
-</div>
+<ReactInteractiveTable />

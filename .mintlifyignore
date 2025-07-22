@@ -1,0 +1,8 @@
+wordpress-pull/
+drafts/
+node_modules/
+.git/
+.docusaurus/
+build/
+*.log
+.DS_Store

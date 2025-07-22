@@ -2,52 +2,119 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Broadstripes Help Center",
   "logo": {
-    "dark": "/img/broadstripeslogo_dark_system_blue500.svg",
-    "light": "/img/broadstripeslogo.svg"
+    "dark": "/images/broadstripeslogo_dark_system_blue500.svg",
+    "light": "/images/broadstripeslogo.svg"
   },
-  "favicon": "/img/favicon.ico",
+  "favicon": "/images/favicon.ico",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
+    "primary": "#1E40AF",
+    "light": "#3B82F6",
+    "dark": "#1E3A8A"
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:support@broadstripes.com"
+      "name": "Contact Support",
+      "url": "https://help.broadstripes.com/contact-us/"
     }
   ],
+  "topbarCtaButton": {
+    "name": "Go to Broadstripes",
+    "url": "https://crm.broadstripes.com"
+  },
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Overview",
       "pages": [
-        "docs/getting-started"
+        "index"
+      ]
+    },
+    {
+      "group": "Getting Started",
+      "pages": [
+        "getting-started/getting-started-overview",
+        "getting-started/register-your-account",
+        "getting-started/log-in-and-reset-a-password",
+        "getting-started/passwords-and-digital-security-tips",
+        "getting-started/use-the-homepage-tabs",
+        "getting-started/choose-a-layout",
+        "getting-started/add-a-column-to-a-layout",
+        "getting-started/add-flexible-contact-info-columns-to-a-layout",
+        "getting-started/record-your-organizing-info",
+        "getting-started/search-by-name",
+        "getting-started/search-by-workplace",
+        "getting-started/use-quick-search",
+        "getting-started/download-a-spreadsheet-list",
+        "getting-started/print-a-pdf-list",
+        "getting-started/view-your-people-on-a-map",
+        "getting-started/get-driving-directions-for-your-list"
       ]
     },
     {
       "group": "Search",
       "pages": [
-        "docs/search"
+        "search/search-overview",
+        "search/search-builder-build-an-advanced-search",
+        "search/search-with-multiple-rules",
+        "search/add-rule-groups-to-your-search",
+        "search/search-by-name-holder",
+        "search/search-by-workplace-holder",
+        "search/search-by-event-step",
+        "search/search-by-event-using-dates",
+        "search/limiting-searches-to-a-particular-set-of-workplaces",
+        "search/sort-search-results",
+        "search/save-and-share-searches",
+        "search/search-language-reference",
+        "search/use-quick-search-holder"
       ]
     },
     {
       "group": "Communications",
       "pages": [
-        "docs/communications"
+        "communications/communications-overview",
+        "communications/bulk-actions-send-email",
+        "communications/bulk-actions-send-sms-text-message",
+        "communications/email-messaging-opted-in-permissions",
+        "communications/text-messaging-opted-in-permissions",
+        "communications/using-merge-fields"
       ]
     },
     {
       "group": "Viewing & Editing Results",
       "pages": [
-        "docs/viewing-search-results-and-edit"
+        "viewing-search-results-and-edit/viewing-overview",
+        "viewing-search-results-and-edit/scrolling-paging-results",
+        "viewing-search-results-and-edit/selecting-deselecting-contacts",
+        "viewing-search-results-and-edit/use-keyboard-shortcuts"
+      ]
+    },
+    {
+      "group": "Bulk Actions",
+      "pages": [
+        "viewing-search-results-and-edit/bulk-actions/bulk-actions",
+        "viewing-search-results-and-edit/bulk-actions/bulk-actions-assign-event-steps",
+        "viewing-search-results-and-edit/bulk-actions/bulk-actions-assign-leader-remove-leader",
+        "viewing-search-results-and-edit/bulk-actions/bulk-actions-employment-department-job-title-create-change-terminate-delete",
+        "viewing-search-results-and-edit/bulk-actions/bulk-actions-list",
+        "viewing-search-results-and-edit/bulk-actions/bulk-actions-set-update-custom-field"
+      ]
+    },
+    {
+      "group": "Release Notes",
+      "pages": [
+        "release-notes"
       ]
     }
   ],
   "footerSocials": {
-    "website": "https://help.broadstripes.com"
-  }
+    "x": "https://twitter.com/broadstripes",
+    "github": "https://github.com/broadstripes",
+    "linkedin": "https://www.linkedin.com/company/broadstripes"
+  },
+  "anchors": [
+    {
+      "name": "Broadstripes App",
+      "url": "https://crm.broadstripes.com",
+      "icon": "globe"
+    }
+  ]
 }
